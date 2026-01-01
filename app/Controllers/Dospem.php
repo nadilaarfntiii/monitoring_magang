@@ -222,6 +222,11 @@ class Dospem extends BaseController
         $data['user_name'] = $this->getUserName();
         $data['foto'] = $this->getUserFoto();
 
+        dd(
+            session()->get('username'),
+            session()->get('id_user')
+        );
+
         return view('dospem/mahasiswa', $data);
     }
 

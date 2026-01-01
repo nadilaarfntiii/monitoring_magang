@@ -1,0 +1,171 @@
+DEBUG - 2025-10-26 14:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 14:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-26 14:48:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-26 14:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 14:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 14:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 14:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 14:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-26 15:35:16 --> mysqli_sql_exception: Column 'id_aktivitas' cannot be null in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ak...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\LearningPlan.php(163): CodeIgniter\Model->insert(Array)
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\LearningPlan->store()
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#15 {main}
+CRITICAL - 2025-10-26 15:35:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_aktivitas' cannot be null
+[Method: POST, Route: learningplan/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `aktivitas_pembelajaran` (`id_lp`, `tipe`, `kompetensi`, `dicentang`, `urutan`, `created_at`, `updated_at`) VALUES (:id_lp:, :tipe:, :kompetensi:, :dicentang:, :urutan:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\LearningPlan.php(163): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+CRITICAL - 2025-10-26 15:35:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_aktivitas' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `aktivitas_pembelajaran` (`id_lp`, `tipe`, `kompetensi`, `dicentang`, `urutan`, `created_at`, `updated_at`) VALUES (0, \'Magang\', \'Kemampuan dalam merekam data/mengelola sebuah aplikasi dalam organisasi\', 1, 1, \'2025-10-26 15:35:16\', \'2025-10-26 15:35:16\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `aktivitas_pembelajaran` (`id_lp`, `tipe`, `kompetensi`, `dicentang`, `urutan`, `created_at`, `updated_at`) VALUES (0, \'Magang\', \'Kemampuan dalam merekam data/mengelola sebuah aplikasi dalam organisasi\', 1, 1, \'2025-10-26 15:35:16\', \'2025-10-26 15:35:16\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `aktivitas_pembelajaran` (`id_lp`, `tipe`, `kompetensi`, `dicentang`, `urutan`, `created_at`, `updated_at`) VALUES (:id_lp:, :tipe:, :kompetensi:, :dicentang:, :urutan:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\LearningPlan.php(163): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+CRITICAL - 2025-10-26 15:35:16 --> [Caused by] mysqli_sql_exception: Column 'id_aktivitas' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `aktivitas_pembelajaran` (`id_lp`, `tipe`, `kompetensi`, `dicentang`, `urutan`, `created_at`, `updated_at`) VALUES (0, \'Magang\', \'Kemampuan dalam merekam data/mengelola sebuah aplikasi dalam organisasi\', 1, 1, \'2025-10-26 15:35:16\', \'2025-10-26 15:35:16\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `aktivitas_pembelajaran` (`id_lp`, `tipe`, `kompetensi`, `dicentang`, `urutan`, `created_at`, `updated_at`) VALUES (0, \'Magang\', \'Kemampuan dalam merekam data/mengelola sebuah aplikasi dalam organisasi\', 1, 1, \'2025-10-26 15:35:16\', \'2025-10-26 15:35:16\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `aktivitas_pembelajaran` (`id_lp`, `tipe`, `kompetensi`, `dicentang`, `urutan`, `created_at`, `updated_at`) VALUES (0, \'Magang\', \'Kemampuan dalam merekam data/mengelola sebuah aplikasi dalam organisasi\', 1, 1, \'2025-10-26 15:35:16\', \'2025-10-26 15:35:16\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `aktivitas_pembelajaran` (`id_lp`, `tipe`, `kompetensi`, `dicentang`, `urutan`, `created_at`, `updated_at`) VALUES (:id_lp:, :tipe:, :kompetensi:, :dicentang:, :urutan:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\LearningPlan.php(163): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-26 15:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-26 15:43:25 --> CodeIgniter\Database\Exceptions\DataException: There is no primary key defined when trying to make insert.
+[Method: POST, Route: learningplan/store]
+in SYSTEMPATH\Model.php on line 358.
+ 1 SYSTEMPATH\Model.php(358): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\LearningPlan.php(163): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-26 15:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-26 15:43:57 --> CodeIgniter\Database\Exceptions\DataException: There is no primary key defined when trying to make insert.
+[Method: POST, Route: learningplan/store]
+in SYSTEMPATH\Model.php on line 358.
+ 1 SYSTEMPATH\Model.php(358): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\LearningPlan.php(163): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-26 15:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-26 15:45:58 --> CodeIgniter\Database\Exceptions\DataException: There is no primary key defined when trying to make insert.
+[Method: POST, Route: learningplan/store]
+in SYSTEMPATH\Model.php on line 358.
+ 1 SYSTEMPATH\Model.php(358): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\LearningPlan.php(163): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-26 15:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-26 15:52:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-26 15:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 15:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-26 16:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

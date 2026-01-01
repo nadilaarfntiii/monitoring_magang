@@ -1,0 +1,958 @@
+DEBUG - 2025-11-30 04:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:17:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:18:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:20:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:27:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:28:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:32:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:34:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:37:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:37:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:38:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:48:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 04:48:29 --> ErrorException: Undefined variable $role_name
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\dashboard.php on line 171.
+ 1 APPPATH\Views\admin\dashboard.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\admin\\dashboard.php', 171)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+WARNING - 2025-11-30 04:54:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 04:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:54:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:54:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:54:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:56:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 04:57:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 04:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:02:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:03:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:08:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:25:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:30:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:33:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:36:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:36:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:39:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:40:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:40:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:41:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:42:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:44:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 05:44:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 05:46:53 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: kelola_user]
+in APPPATH\Views\layouts\admin.php on line 45.
+ 1 APPPATH\Views\layouts\admin.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/kelola_user', [], true)
+ 6 APPPATH\Controllers\Kelola_user.php(52): view('admin/kelola_user', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelola_user->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola_user))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 05:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 05:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 05:59:35 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: kelola_mitra]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/kelola_mitra', [], true)
+ 6 APPPATH\Controllers\Kelola_mitra.php(25): view('admin/kelola_mitra', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelola_mitra->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola_mitra))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 06:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:00:46 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: kelola_unit]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/kelola_unit', [], true)
+ 6 APPPATH\Controllers\Kelola_unit.php(30): view('admin/kelola_unit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelola_unit->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola_unit))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 06:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:01:18 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: program_magang]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/program_magang', [], true)
+ 6 APPPATH\Controllers\ProgramMagang.php(20): view('admin/program_magang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProgramMagang->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramMagang))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 06:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:02:27 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: kelola_profil_magang]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/kelola_profil_magang', [], true)
+ 6 APPPATH\Controllers\ProfilMagang.php(42): view('admin/kelola_profil_magang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfilMagang->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilMagang))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:02:47 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: kelola_profil_magang]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/kelola_profil_magang', [], true)
+ 6 APPPATH\Controllers\ProfilMagang.php(43): view('admin/kelola_profil_magang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfilMagang->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilMagang))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:02:51 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: kelola_profil_magang]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/kelola_profil_magang', [], true)
+ 6 APPPATH\Controllers\ProfilMagang.php(43): view('admin/kelola_profil_magang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfilMagang->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilMagang))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+CRITICAL - 2025-11-30 06:03:35 --> ParseError: syntax error, unexpected token ";", expecting "]"
+[Method: GET, Route: kelola_profil_magang]
+in APPPATH\Controllers\ProfilMagang.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Controllers\\ProfilMagang.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProfilMagang')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProfilMagang')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\ProfilMagang', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 06:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:04:00 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: arsip_pengguna]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/arsip_pengguna', [], true)
+ 6 APPPATH\Controllers\Kelola_user.php(725): view('admin/arsip_pengguna', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelola_user->arsip()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola_user))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 06:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:05:13 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: arsip_mitra]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/arsip_mitra', [], true)
+ 6 APPPATH\Controllers\Kelola_mitra.php(238): view('admin/arsip_mitra', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelola_mitra->arsip()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola_mitra))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 06:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:05:50 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: arsip_unit]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/arsip_unit', [], true)
+ 6 APPPATH\Controllers\Kelola_unit.php(169): view('admin/arsip_unit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelola_unit->arsip()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola_unit))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 06:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:06:30 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: arsip_profil_magang]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/arsip_profil_magang', [], true)
+ 6 APPPATH\Controllers\ProfilMagang.php(323): view('admin/arsip_profil_magang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfilMagang->arsip()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilMagang))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 06:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 06:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 06:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:09:26 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: update_password]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('update_password', [], true)
+ 6 APPPATH\Controllers\Login.php(125): view('update_password')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->updatePassword()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:10:20 --> Error: Call to undefined method App\Controllers\Login::getUserName()
+[Method: GET, Route: update_password]
+in APPPATH\Controllers\Login.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->updatePassword()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+CRITICAL - 2025-11-30 06:12:29 --> Error: Cannot call constructor
+[Method: GET, Route: update_password]
+in APPPATH\Controllers\Login.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:13:40 --> Error: Call to undefined method App\Controllers\Login::getUserName()
+[Method: GET, Route: update_password]
+in APPPATH\Controllers\Login.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->updatePassword()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:14:56 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: update_password]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('update_password', [], true)
+ 6 APPPATH\Controllers\Login.php(127): view('update_password')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->updatePassword()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:15:50 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: update_password]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('update_password', [], true)
+ 6 APPPATH\Controllers\Login.php(127): view('update_password')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->updatePassword()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 06:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 06:15:53 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: update_password]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('update_password', [], true)
+ 6 APPPATH\Controllers\Login.php(127): view('update_password')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->updatePassword()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 09:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 09:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 09:42:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 09:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 09:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 09:43:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 09:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 09:44:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 09:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 09:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 09:44:11 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: admin/profil]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/profil', [], true)
+ 6 APPPATH\Controllers\Admin.php(34): view('admin/profil', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->profil()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 09:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 09:45:14 --> Error: Call to undefined method App\Controllers\Admin::getUserName()
+[Method: GET, Route: admin/profil]
+in APPPATH\Controllers\Admin.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->profil()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 09:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 09:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 09:46:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 09:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 09:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 09:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 09:46:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 09:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 09:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:08:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:09:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 10:15:26 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: update_password]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('update_password', [], true)
+ 6 APPPATH\Controllers\Login.php(128): view('update_password')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->updatePassword()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 10:16:58 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: update_password]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('update_password', [], true)
+ 6 APPPATH\Controllers\Login.php(128): view('update_password')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->updatePassword()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-30 10:17:02 --> ErrorException: Undefined variable $user_name
+[Method: GET, Route: update_password]
+in APPPATH\Views\layouts\admin.php on line 54.
+ 1 APPPATH\Views\layouts\admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_name', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\layouts\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('update_password', [], true)
+ 6 APPPATH\Controllers\Login.php(128): view('update_password')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->updatePassword()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:19:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:22:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:22:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:26:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:26:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:32:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:32:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:32:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:36:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:44:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:47:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-30 10:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-30 10:47:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-30 10:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

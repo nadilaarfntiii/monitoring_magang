@@ -1,0 +1,644 @@
+DEBUG - 2025-10-23 00:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-23 00:28:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 00:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-23 00:34:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 00:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-23 00:40:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 00:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-23 07:46:39 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: POST, Route: presensi/simpanMasuk]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+WARNING - 2025-10-23 00:46:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 00:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-23 00:46:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_monitoring_m...', 3306, '', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\Home->dashboard_mahasiswa()
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\Home->dashboard_mahasiswa()
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#13 {main}
+CRITICAL - 2025-10-23 00:46:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: mahasiswa/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `id_user` = :id_user:
+AND `user`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard_mahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 00:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-23 07:46:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_monitoring_m...', 3306, '', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `profil_...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Presensi.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Presensi.php(29): App\Controllers\Presensi->tandaiTidakHadir()
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\Presensi->index()
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `profil_...', Array, false)
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Presensi.php(183): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Presensi.php(29): App\Controllers\Presensi->tandaiTidakHadir()
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\Presensi->index()
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#12 {main}
+CRITICAL - 2025-10-23 07:46:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: presensi]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `profil_magang`.`nim`, `profil_magang`.`id_unit`
+FROM `profil_magang`
+WHERE `profil_magang`.`deleted_at` IS NULL', [], false)
+ 3 APPPATH\Controllers\Presensi.php(183): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Presensi.php(29): App\Controllers\Presensi->tandaiTidakHadir()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Presensi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+WARNING - 2025-10-23 00:46:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 00:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-23 00:46:57 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_monitoring_m...', 3306, '', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\Home->dashboard_mahasiswa()
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\Home->dashboard_mahasiswa()
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#13 {main}
+CRITICAL - 2025-10-23 00:46:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: mahasiswa/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `id_user` = :id_user:
+AND `user`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard_mahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+WARNING - 2025-10-23 00:46:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 00:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-23 00:47:01 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_monitoring_m...', 3306, '', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\Home->dashboard_mahasiswa()
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\Home->dashboard_mahasiswa()
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#13 {main}
+CRITICAL - 2025-10-23 00:47:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: mahasiswa/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `id_user` = :id_user:
+AND `user`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Home.php(64): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard_mahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 00:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-23 07:47:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_monitoring_m...', 3306, '', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `profil_...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Presensi.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Presensi.php(29): App\Controllers\Presensi->tandaiTidakHadir()
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\Presensi->index()
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `profil_...', Array, false)
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Presensi.php(183): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Presensi.php(29): App\Controllers\Presensi->tandaiTidakHadir()
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\Presensi->index()
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#12 {main}
+CRITICAL - 2025-10-23 07:47:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: presensi]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `profil_magang`.`nim`, `profil_magang`.`id_unit`
+FROM `profil_magang`
+WHERE `profil_magang`.`deleted_at` IS NULL', [], false)
+ 3 APPPATH\Controllers\Presensi.php(183): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Presensi.php(29): App\Controllers\Presensi->tandaiTidakHadir()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Presensi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 00:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-23 00:47:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 00:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-23 00:49:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 00:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 00:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-23 01:07:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 01:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-23 01:08:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 01:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-23 01:54:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 01:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-23 01:54:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 01:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-23 01:55:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 01:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 01:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 02:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 03:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-10-23 03:45:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 03:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 04:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 04:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 04:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 04:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 04:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-23 04:28:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "learning_plan/index.php"
+[Method: GET, Route: learning_plan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('learning_plan/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('learning_plan/index', [], true)
+ 3 APPPATH\Controllers\LearningPlan.php(42): view('learning_plan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 04:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-23 04:28:48 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: learning_plan]
+in APPPATH\Views\mahasiswa\learning_plan.php on line 20.
+ 1 APPPATH\Views\mahasiswa\learning_plan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/learning_plan', [], true)
+ 5 APPPATH\Controllers\LearningPlan.php(42): view('mahasiswa/learning_plan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 04:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-23 04:31:11 --> ErrorException: Undefined array key "nama_lengkap"
+[Method: GET, Route: learning_plan]
+in APPPATH\Views\mahasiswa\learning_plan.php on line 24.
+ 1 APPPATH\Views\mahasiswa\learning_plan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lengkap"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/learning_plan', [], true)
+ 5 APPPATH\Controllers\LearningPlan.php(42): view('mahasiswa/learning_plan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 04:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-23 04:36:47 --> ErrorException: Undefined array key "nama_lengkap"
+[Method: GET, Route: learning_plan]
+in APPPATH\Views\mahasiswa\learning_plan.php on line 24.
+ 1 APPPATH\Views\mahasiswa\learning_plan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lengkap"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/learning_plan', [], true)
+ 5 APPPATH\Controllers\LearningPlan.php(42): view('mahasiswa/learning_plan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 04:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-23 04:39:36 --> ErrorException: Undefined array key "nama_lengkap"
+[Method: GET, Route: learning_plan]
+in APPPATH\Views\mahasiswa\learning_plan.php on line 24.
+ 1 APPPATH\Views\mahasiswa\learning_plan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lengkap"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/learning_plan', [], true)
+ 5 APPPATH\Controllers\LearningPlan.php(42): view('mahasiswa/learning_plan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 04:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 04:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 04:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-23 04:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-23 04:39:52 --> ErrorException: Undefined array key "nama_lengkap"
+[Method: GET, Route: learning_plan]
+in APPPATH\Views\mahasiswa\learning_plan.php on line 24.
+ 1 APPPATH\Views\mahasiswa\learning_plan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lengkap"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/learning_plan', [], true)
+ 5 APPPATH\Controllers\LearningPlan.php(42): view('mahasiswa/learning_plan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 04:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-23 04:43:21 --> ErrorException: Undefined array key "no_hp"
+[Method: GET, Route: learning_plan]
+in APPPATH\Views\mahasiswa\learning_plan.php on line 67.
+ 1 APPPATH\Views\mahasiswa\learning_plan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_hp"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/learning_plan', [], true)
+ 5 APPPATH\Controllers\LearningPlan.php(43): view('mahasiswa/learning_plan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 04:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-23 04:45:34 --> ErrorException: Undefined variable $aktivitas
+[Method: GET, Route: learning_plan]
+in APPPATH\Views\mahasiswa\learning_plan.php on line 107.
+ 1 APPPATH\Views\mahasiswa\learning_plan.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aktivitas', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php', 107)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\learning_plan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/learning_plan', [], true)
+ 5 APPPATH\Controllers\LearningPlan.php(43): view('mahasiswa/learning_plan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-10-23 04:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

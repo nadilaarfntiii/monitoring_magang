@@ -1,0 +1,1370 @@
+DEBUG - 2025-11-27 12:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 12:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 12:51:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 12:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 12:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 12:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 12:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 12:56:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 12:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 12:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 12:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 12:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 12:57:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 12:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 12:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 12:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 13:37:59 --> ErrorException: Undefined variable $kompetensi
+[Method: GET, Route: mahasiswa/learningplan/cetak/FM010239_222300075]
+in APPPATH\Views\mahasiswa\cetak_lp_mengajar.php on line 349.
+ 1 APPPATH\Views\mahasiswa\cetak_lp_mengajar.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kompetensi', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lp_mengajar.php', 349)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lp_mengajar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/cetak_lp_mengajar', [], true)
+ 5 APPPATH\Controllers\LearningPlan.php(671): view('mahasiswa/cetak_lp_mengajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->cetak('FM010239_222300075')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 13:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 13:38:28 --> ErrorException: Undefined variable $kompetensi
+[Method: GET, Route: mahasiswa/learningplan/cetak/FM010239_222300075]
+in APPPATH\Views\mahasiswa\cetak_lp_mengajar.php on line 350.
+ 1 APPPATH\Views\mahasiswa\cetak_lp_mengajar.php(350): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kompetensi', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lp_mengajar.php', 350)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lp_mengajar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/cetak_lp_mengajar', [], true)
+ 5 APPPATH\Controllers\LearningPlan.php(671): view('mahasiswa/cetak_lp_mengajar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LearningPlan->cetak('FM010239_222300075')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningPlan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 13:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 13:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 14:24:05 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: logbook/cetak]
+in APPPATH\Views\mahasiswa\cetak_lb.php on line 42.
+ 1 APPPATH\Views\mahasiswa\cetak_lb.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/cetak_lb', [], true)
+ 5 APPPATH\Controllers\Logbook.php(198): view('mahasiswa/cetak_lb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logbook->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logbook))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 14:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 14:24:26 --> ErrorException: Undefined array key "nama_lengkap"
+[Method: GET, Route: logbook/cetak]
+in APPPATH\Views\mahasiswa\cetak_lb.php on line 42.
+ 1 APPPATH\Views\mahasiswa\cetak_lb.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lengkap"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/cetak_lb', [], true)
+ 5 APPPATH\Controllers\Logbook.php(198): view('mahasiswa/cetak_lb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logbook->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logbook))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 14:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 14:35:42 --> ErrorException: Undefined array key "nama_lengkap"
+[Method: GET, Route: logbook/cetak]
+in APPPATH\Views\mahasiswa\cetak_lb.php on line 42.
+ 1 APPPATH\Views\mahasiswa\cetak_lb.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lengkap"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/cetak_lb', [], true)
+ 5 APPPATH\Controllers\Logbook.php(198): view('mahasiswa/cetak_lb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logbook->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logbook))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 14:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 14:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 14:58:30 --> ErrorException: Undefined array key "alamat_mitra"
+[Method: GET, Route: logbook/cetak]
+in APPPATH\Views\mahasiswa\cetak_lb.php on line 57.
+ 1 APPPATH\Views\mahasiswa\cetak_lb.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat_mitra"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/cetak_lb', [], true)
+ 5 APPPATH\Controllers\Logbook.php(203): view('mahasiswa/cetak_lb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logbook->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logbook))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 14:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 14:59:05 --> ErrorException: Undefined array key "alamat_mahasiswa"
+[Method: GET, Route: logbook/cetak]
+in APPPATH\Views\mahasiswa\cetak_lb.php on line 103.
+ 1 APPPATH\Views\mahasiswa\cetak_lb.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat_mahasiswa"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/cetak_lb', [], true)
+ 5 APPPATH\Controllers\Logbook.php(203): view('mahasiswa/cetak_lb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logbook->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logbook))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 14:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 14:59:33 --> ErrorException: Undefined array key "no_hp"
+[Method: GET, Route: logbook/cetak]
+in APPPATH\Views\mahasiswa\cetak_lb.php on line 108.
+ 1 APPPATH\Views\mahasiswa\cetak_lb.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_hp"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php', 108)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/cetak_lb', [], true)
+ 5 APPPATH\Controllers\Logbook.php(203): view('mahasiswa/cetak_lb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logbook->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logbook))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 14:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 14:59:55 --> ErrorException: Undefined array key "judul_magang"
+[Method: GET, Route: logbook/cetak]
+in APPPATH\Views\mahasiswa\cetak_lb.php on line 113.
+ 1 APPPATH\Views\mahasiswa\cetak_lb.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul_magang"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php', 113)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/cetak_lb', [], true)
+ 5 APPPATH\Controllers\Logbook.php(203): view('mahasiswa/cetak_lb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logbook->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logbook))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 15:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 15:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 16:03:10 --> ErrorException: Undefined array key "judul_ta"
+[Method: GET, Route: logbook/cetak]
+in APPPATH\Views\mahasiswa\cetak_lb.php on line 157.
+ 1 APPPATH\Views\mahasiswa\cetak_lb.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul_ta"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php', 157)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/cetak_lb', [], true)
+ 5 APPPATH\Controllers\Logbook.php(222): view('mahasiswa/cetak_lb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logbook->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logbook))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 16:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 16:05:30 --> ErrorException: Undefined variable $judulTA
+[Method: GET, Route: logbook/cetak]
+in APPPATH\Views\mahasiswa\cetak_lb.php on line 157.
+ 1 APPPATH\Views\mahasiswa\cetak_lb.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judulTA', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php', 157)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Views\\mahasiswa\\cetak_lb.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa/cetak_lb', [], true)
+ 5 APPPATH\Controllers\Logbook.php(222): view('mahasiswa/cetak_lb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logbook->cetak()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logbook))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 16:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 16:07:59 --> ErrorException: Undefined variable $ta
+[Method: GET, Route: logbook/cetak]
+in APPPATH\Controllers\Logbook.php on line 199.
+ 1 APPPATH\Controllers\Logbook.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ta', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\app\\Controllers\\Logbook.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logbook->cetak()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logbook))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 16:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 16:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:07:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$dospemModel is deprecated in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 17:33:17 --> Error: Call to undefined function statusIcon()
+[Method: GET, Route: kaprodi/nilai_mahasiswa]
+in APPPATH\Views\kaprodi\nilai_mahasiswa.php on line 62.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kaprodi/nilai_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Kaprodi.php(187): view('kaprodi/nilai_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->nilai_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 17:37:51 --> Error: Call to undefined function statusIcon()
+[Method: GET, Route: kaprodi/nilai_mahasiswa]
+in APPPATH\Views\kaprodi\nilai_mahasiswa.php on line 62.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kaprodi/nilai_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Kaprodi.php(190): view('kaprodi/nilai_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->nilai_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 17:37:56 --> Error: Call to undefined function statusIcon()
+[Method: GET, Route: kaprodi/nilai_mahasiswa]
+in APPPATH\Views\kaprodi\nilai_mahasiswa.php on line 62.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kaprodi/nilai_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Kaprodi.php(190): view('kaprodi/nilai_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->nilai_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 17:40:06 --> Error: Call to undefined function statusIcon()
+[Method: GET, Route: kaprodi/nilai_mahasiswa]
+in APPPATH\Views\kaprodi\nilai_mahasiswa.php on line 62.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kaprodi/nilai_mahasiswa', [], true)
+ 4 APPPATH\Controllers\Kaprodi.php(200): view('kaprodi/nilai_mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->nilai_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-27 17:48:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `role` = 'dospem'' at line 5 in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Model.php(675): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Models\NilaiMagangModel.php(33): CodeIgniter\Model->countAllResults()
+#6 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\app\Controllers\Kaprodi.php(175): App\Models\NilaiMagangModel->cekStatus('22.230.0075_PPU...', 'BB010', 'dospem')
+#7 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(933): App\Controllers\Kaprodi->nilai_mahasiswa()
+#8 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+#9 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\rewrite.php(44): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+CRITICAL - 2025-11-27 17:48:33 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `role` = 'dospem'' at line 5
+[Method: GET, Route: kaprodi/nilai_mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `nilai_magang`
+WHERE `id_profil` = :id_profil:
+AND id_nilai LIKE :id_nilai:
+AND `role` = :role:', [...], false)
+ 2 SYSTEMPATH\Model.php(675): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Models\NilaiMagangModel.php(33): CodeIgniter\Model->countAllResults()
+ 4 APPPATH\Controllers\Kaprodi.php(175): App\Models\NilaiMagangModel->cekStatus('22.230.0075_PPUP', 'BB010', 'dospem')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->nilai_mahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+CRITICAL - 2025-11-27 17:48:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `role` = 'dospem'' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `nilai_magang`
+WHERE `id_profil` = \'22.230.0075_PPUP\'
+AND id_nilai LIKE BB010%
+AND `role` = \'dospem\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `nilai_magang`
+WHERE `id_profil` = \'22.230.0075_PPUP\'
+AND id_nilai LIKE BB010%
+AND `role` = \'dospem\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `nilai_magang`
+WHERE `id_profil` = :id_profil:
+AND id_nilai LIKE :id_nilai:
+AND `role` = :role:', [...], false)
+ 4 SYSTEMPATH\Model.php(675): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 5 APPPATH\Models\NilaiMagangModel.php(33): CodeIgniter\Model->countAllResults()
+ 6 APPPATH\Controllers\Kaprodi.php(175): App\Models\NilaiMagangModel->cekStatus('22.230.0075_PPUP', 'BB010', 'dospem')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->nilai_mahasiswa()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+CRITICAL - 2025-11-27 17:48:33 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `role` = 'dospem'' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `nilai_magang`
+WHERE `id_profil` = \'22.230.0075_PPUP\'
+AND id_nilai LIKE BB010%
+AND `role` = \'dospem\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `nilai_magang`
+WHERE `id_profil` = \'22.230.0075_PPUP\'
+AND id_nilai LIKE BB010%
+AND `role` = \'dospem\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `nilai_magang`
+WHERE `id_profil` = \'22.230.0075_PPUP\'
+AND id_nilai LIKE BB010%
+AND `role` = \'dospem\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `nilai_magang`
+WHERE `id_profil` = :id_profil:
+AND id_nilai LIKE :id_nilai:
+AND `role` = :role:', [...], false)
+ 5 SYSTEMPATH\Model.php(675): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Models\NilaiMagangModel.php(33): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Kaprodi.php(175): App\Models\NilaiMagangModel->cekStatus('22.230.0075_PPUP', 'BB010', 'dospem')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->nilai_mahasiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:51:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:51:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:54:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:54:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:54:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:54:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:57:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:57:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:57:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:58:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:58:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:58:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:59:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:59:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 17:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:59:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 17:59:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 17:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:00:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:00:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:00:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:05:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:05:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:06:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:06:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:07:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:07:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:13:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:13:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:13:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:14:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:14:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:18:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:18:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:18:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:27:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:27:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:27:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:28:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:32:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:32:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:32:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:35:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:35:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:36:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:36:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:37:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:37:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:37:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:37:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:44:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:44:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:44:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:45:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:45:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:46:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:46:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:46:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:46:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:47:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:47:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:47:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:47:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:48:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:48:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:48:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:48:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:49:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:49:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:50:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 18:50:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\KelolaPenilaian::$nilaiMagangModel is deprecated in APPPATH\Controllers\KelolaPenilaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\KelolaPenilaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 18:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 18:59:46 --> ArgumentCountError: Too few arguments to function App\Controllers\Kaprodi::detail_nilai(), 0 passed in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: kaprodi/detail_nilai/22.230.0001]
+in APPPATH\Controllers\Kaprodi.php on line 204.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->detail_nilai()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 18:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 18:59:46 --> ArgumentCountError: Too few arguments to function App\Controllers\Kaprodi::detail_nilai(), 0 passed in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: kaprodi/detail_nilai/22.230.0072]
+in APPPATH\Controllers\Kaprodi.php on line 204.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->detail_nilai()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 19:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 19:03:49 --> ArgumentCountError: Too few arguments to function App\Controllers\Kaprodi::detail_nilai(), 0 passed in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: kaprodi/detail_nilai/22.230.0072]
+in APPPATH\Controllers\Kaprodi.php on line 204.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->detail_nilai()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 19:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 19:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-27 19:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-27 19:04:33 --> ArgumentCountError: Too few arguments to function App\Controllers\Kaprodi::detail_nilai(), 0 passed in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: kaprodi/detail_nilai/22.230.0072]
+in APPPATH\Controllers\Kaprodi.php on line 204.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->detail_nilai()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 19:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 19:07:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaprodi::$nilaiModel is deprecated in APPPATH\Controllers\Kaprodi.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Kaprodi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+CRITICAL - 2025-11-27 19:07:48 --> ArgumentCountError: Too few arguments to function App\Controllers\Kaprodi::detail_nilai(), 0 passed in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: kaprodi/detail_nilai/22.230.0072]
+in APPPATH\Controllers\Kaprodi.php on line 206.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->detail_nilai()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 19:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 19:07:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaprodi::$nilaiModel is deprecated in APPPATH\Controllers\Kaprodi.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Kaprodi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+CRITICAL - 2025-11-27 19:07:50 --> ArgumentCountError: Too few arguments to function App\Controllers\Kaprodi::detail_nilai(), 0 passed in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: kaprodi/detail_nilai/22.230.0072]
+in APPPATH\Controllers\Kaprodi.php on line 206.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->detail_nilai()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 19:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 19:07:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaprodi::$nilaiModel is deprecated in APPPATH\Controllers\Kaprodi.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Kaprodi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 19:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 19:07:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaprodi::$nilaiModel is deprecated in APPPATH\Controllers\Kaprodi.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Kaprodi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+CRITICAL - 2025-11-27 19:07:55 --> ArgumentCountError: Too few arguments to function App\Controllers\Kaprodi::detail_nilai(), 0 passed in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: kaprodi/detail_nilai/22.230.0072]
+in APPPATH\Controllers\Kaprodi.php on line 206.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->detail_nilai()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+DEBUG - 2025-11-27 19:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-27 19:09:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kaprodi::$nilaiModel is deprecated in APPPATH\Controllers\Kaprodi.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Kaprodi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')
+CRITICAL - 2025-11-27 19:09:01 --> ArgumentCountError: Too few arguments to function App\Controllers\Kaprodi::detail_nilai(), 0 passed in D:\A_PERKULIAHAN\SEMESTER 7\SKRIPSI NADILA CANTIK\CODING SIM MAGANG NADILA\SIM MAGANG\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: kaprodi/detail_nilai/22.230.0072]
+in APPPATH\Controllers\Kaprodi.php on line 206.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kaprodi->detail_nilai()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaprodi))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG\\public\\index.php')

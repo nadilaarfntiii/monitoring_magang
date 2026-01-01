@@ -1,0 +1,71 @@
+DEBUG - 2025-09-14 14:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-14 14:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-14 15:24:15 --> ErrorException: Undefined variable $users
+[Method: GET, Route: kelola_user]
+in APPPATH\Views\admin\kelola_user.php on line 25.
+ 1 APPPATH\Views\admin\kelola_user.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG SKRIPSI NADILA CANTIK\\app\\Views\\admin\\kelola_user.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG SKRIPSI NADILA CANTIK\\app\\Views\\admin\\kelola_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/kelola_user', [], true)
+ 5 APPPATH\Controllers\Kelola_user.php(11): view('admin/kelola_user')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelola_user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola_user))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG SKRIPSI NADILA CANTIK\\public\\index.php')
+CRITICAL - 2025-09-14 15:25:22 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: kelola_user]
+in APPPATH\Controllers\Kelola_user.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelola_user->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola_user))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG SKRIPSI NADILA CANTIK\\public\\index.php')
+CRITICAL - 2025-09-14 15:25:58 --> ErrorException: Undefined variable $users
+[Method: GET, Route: kelola_user]
+in APPPATH\Views\admin\kelola_user.php on line 25.
+ 1 APPPATH\Views\admin\kelola_user.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG SKRIPSI NADILA CANTIK\\app\\Views\\admin\\kelola_user.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG SKRIPSI NADILA CANTIK\\app\\Views\\admin\\kelola_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/kelola_user', [], true)
+ 5 APPPATH\Controllers\Kelola_user.php(15): view('admin/kelola_user')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelola_user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola_user))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG SKRIPSI NADILA CANTIK\\public\\index.php')
+CRITICAL - 2025-09-14 15:27:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/sidebar_admin.php"
+[Method: GET, Route: kelola_user]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/sidebar_admin.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/sidebar_admin', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/kelola_user', [], true)
+ 4 APPPATH\Controllers\Kelola_user.php(15): view('admin/kelola_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelola_user->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola_user))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG SKRIPSI NADILA CANTIK\\public\\index.php')
+CRITICAL - 2025-09-14 16:00:36 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: kelola_user]
+in APPPATH\Views\admin\kelola_user.php on line 60.
+ 1 APPPATH\Views\admin\kelola_user.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG SKRIPSI NADILA CANTIK\\app\\Views\\admin\\kelola_user.php', 60)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG SKRIPSI NADILA CANTIK\\app\\Views\\admin\\kelola_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/kelola_user', [], true)
+ 5 APPPATH\Controllers\Kelola_user.php(15): view('admin/kelola_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelola_user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola_user))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\A_PERKULIAHAN\\SEMESTER 7\\SKRIPSI NADILA CANTIK\\CODING SIM MAGANG NADILA\\SIM MAGANG SKRIPSI NADILA CANTIK\\public\\index.php')

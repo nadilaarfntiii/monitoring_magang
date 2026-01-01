@@ -248,6 +248,8 @@ Data Bimbingan Magang
 <script src="assets/extensions/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<?php if (!empty($mahasiswa)): ?>
 <script src="assets/static/js/pages/datatables.js"></script>
 
 <script>
@@ -255,6 +257,7 @@ Data Bimbingan Magang
       $('#table1').DataTable();
   });
 </script>
+<?php endif; ?>
 
 <script>
     // Aktifkan semua tooltip di halaman

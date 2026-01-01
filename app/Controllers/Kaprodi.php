@@ -158,21 +158,19 @@ class Kaprodi extends BaseController
         }
 
         // ============================
-        // 1. Ambil data kaprodi yang login
+        // 1. Ambil data kaprodi login
         // ============================
         $dosenModel = new \App\Models\DosenModel();
         $nppy = $this->session->get('nppy');
-        
+
         $kaprodi = $dosenModel->where('nppy', $nppy)->first();
-        
         if (!$kaprodi) {
             return redirect()->back()->with('error', 'Data Kaprodi tidak ditemukan.');
         }
-        
+
         $jabatan = $kaprodi['jabatan_fungsional'];
         $prodiFilter = null;
-        
-        // Tentukan prodi berdasarkan jabatan fungsional
+
         if (stripos($jabatan, 'Kaprodi Sistem Informasi') !== false) {
             $prodiFilter = 'Sistem informasi';
         } elseif (stripos($jabatan, 'Kaprodi Teknik Informatika') !== false) {
@@ -180,23 +178,33 @@ class Kaprodi extends BaseController
         } else {
             return redirect()->to('/login')->with('error', 'Anda bukan Kaprodi.');
         }
+
         // ============================
-        // 3. Tentukan semester & tahun ajaran otomatis
+        // 2. Ambil semester & tahun ajaran AKTIF dari database
         // ============================
+        $periodeAktif = $this->profilMagangModel
+            ->select('semester, tahun_ajaran')
+            ->where('status', 'aktif')
+            ->where('deleted_at', null)
+            ->orderBy('tanggal_mulai', 'DESC')
+            ->first();
 
-        // Ambil bulan saat ini
-        $bulan = date('n'); // (1-12)
+        if (!$periodeAktif) {
+            return view('kaprodi/mahasiswa', [
+                'mahasiswa'    => [],
+                'semester'     => null,
+                'tahun_ajaran' => null,
+                'prodi'        => $prodiFilter,
+                'user_name'    => $this->getUserName()
+            ]);
+        }
 
-        // Tentukan periode otomatis
-        $semester = ($bulan >= 9 || $bulan <= 2) ? 'Gasal' : 'Genap';
+        $semester    = $periodeAktif['semester'];
+        $tahunAjaran = $periodeAktif['tahun_ajaran'];
 
-        // Ambil tahun akademik sekarang
-        $tahunSekarang = date('Y');
-        $tahunAjaran = ($semester === 'Gasal')
-            ? $tahunSekarang . '/' . ($tahunSekarang + 1)
-            : ($tahunSekarang - 1) . '/' . $tahunSekarang;
-
-        // Query ambil semua mahasiswa magang di semester & tahun ajaran aktif
+        // ============================
+        // 3. Query mahasiswa magang
+        // ============================
         $data['mahasiswa'] = $this->profilMagangModel
             ->select('
                 profil_magang.id_profil,
@@ -217,17 +225,18 @@ class Kaprodi extends BaseController
             ->join('mitra', 'mitra.id_mitra = profil_magang.id_mitra', 'left')
             ->join('unit', 'unit.id_unit = profil_magang.id_unit', 'left')
             ->join('program_magang', 'program_magang.id_program = profil_magang.id_program', 'left')
+            ->where('profil_magang.status', 'aktif')
             ->where('profil_magang.semester', $semester)
             ->where('profil_magang.tahun_ajaran', $tahunAjaran)
-            ->where('profil_magang.status', 'aktif')
             ->where('mahasiswa.program_studi', $prodiFilter)
+            ->where('profil_magang.deleted_at', null)
             ->orderBy('profil_magang.tanggal_mulai', 'DESC')
             ->findAll();
 
-        $data['semester'] = $semester;
-        $data['tahun_ajaran'] = $tahunAjaran;
-        $data['prodi'] = $prodiFilter;
-        $data['user_name'] = $this->getUserName();
+        $data['semester']      = $semester;
+        $data['tahun_ajaran']  = $tahunAjaran;
+        $data['prodi']         = $prodiFilter;
+        $data['user_name']     = $this->getUserName();
 
         return view('kaprodi/mahasiswa', $data);
     }
@@ -289,16 +298,15 @@ class Kaprodi extends BaseController
         $userModel  = new \App\Models\UserModel();
         $dosenModel = new \App\Models\DosenModel();
 
-        // Ambil user
-        $user = $userModel->where('nppy', $nppy)->first();
-
-        // Ambil dosen (nama)
+        $user  = $userModel->where('nppy', $nppy)->first();
         $dosen = $dosenModel->where('nppy', $nppy)->first();
 
-        $kaprodiNama = $dosen['nama_lengkap'] ?? '-';
+        $kaprodiNama    = $dosen['nama_lengkap'] ?? '-';
         $kaprodiJabatan = $dosen['jabatan_fungsional'] ?? '-';
 
-        // Tentukan Prodi Kaprodi
+        // ============================================
+        // 🔥 2. Tentukan Prodi Kaprodi
+        // ============================================
         $jabatan = $this->session->get('jabatan_fungsional');
         $prodiFilter = null;
 
@@ -310,15 +318,34 @@ class Kaprodi extends BaseController
             return redirect()->to('/login')->with('error', 'Anda bukan Kaprodi.');
         }
 
-        // Tentukan semester & tahun
-        $bulan = date('n');
-        $semester = ($bulan >= 9 || $bulan <= 2) ? 'Gasal' : 'Genap';
-        $tahunSekarang = date('Y');
-        $tahunAjaran = ($semester === 'Gasal')
-            ? $tahunSekarang . '/' . ($tahunSekarang + 1)
-            : ($tahunSekarang - 1) . '/' . $tahunSekarang;
+        // ============================================
+        // 🔥 3. AMBIL SEMESTER & TAHUN AJARAN DARI DATABASE
+        // ============================================
+        $periodeAktif = $this->profilMagangModel
+            ->select('semester, tahun_ajaran')
+            ->whereIn('status', ['aktif', 'selesai'])
+            ->where('deleted_at', null)
+            ->orderBy('tanggal_mulai', 'DESC')
+            ->first();
 
-        // Ambil mahasiswa
+        if (!$periodeAktif) {
+            return view('kaprodi/nilai_mahasiswa', [
+                'mahasiswa' => [],
+                'semester' => '-',
+                'tahun_ajaran' => '-',
+                'prodi' => $prodiFilter,
+                'user_name' => $this->getUserName(),
+                'kaprodi_nama' => $kaprodiNama,
+                'kaprodi_jabatan' => $kaprodiJabatan
+            ]);
+        }
+
+        $semester    = $periodeAktif['semester'];
+        $tahunAjaran = $periodeAktif['tahun_ajaran'];
+
+        // ============================================
+        // 🔥 4. Ambil mahasiswa sesuai periode DB
+        // ============================================
         $mahasiswa = $this->profilMagangModel
             ->select('
                 profil_magang.id_profil,
@@ -333,14 +360,15 @@ class Kaprodi extends BaseController
             ->orderBy('mahasiswa.nama_lengkap', 'ASC')
             ->findAll();
 
-        // Model nilai
+        // ============================================
+        // 🔥 5. PROSES PERHITUNGAN NILAI (TIDAK DIUBAH)
+        // ============================================
         $nilaiModel = new \App\Models\NilaiMagangModel();
 
         foreach ($mahasiswa as &$m) {
 
             $idProfil = $m['id_profil'];
 
-            // 🔹 Ambil seluruh komponen nilai (sama seperti detail_nilai)
             $komponen = $nilaiModel
                 ->select("
                     nilai_magang.id_nilai_magang,
@@ -353,93 +381,69 @@ class Kaprodi extends BaseController
                 ->where('nilai_magang.id_profil', $idProfil)
                 ->findAll();
 
-            // 🔹 Hitung total per role
-            $totalPerMKRole = [];
-            foreach ($komponen as $k) {
-                $key = $k['kode_mk'].'_'.$k['role'];
-
-                if (!isset($totalPerMKRole[$key])) {
-                    $totalPerMKRole[$key] = 0;
-                }
-                $totalPerMKRole[$key] += $k['nilai'];
-            }
-
-            // 🔹 Hitung total per MK (gabungan role)
             $totalPerMK = [];
-            foreach ($komponen as $k) {
 
+            foreach ($komponen as $k) {
                 if (!isset($totalPerMK[$k['kode_mk']])) {
                     $totalPerMK[$k['kode_mk']] = 0;
                 }
-
                 $totalPerMK[$k['kode_mk']] += $k['nilai'];
             }
 
-            // 🔹 Perhitungan khusus MK BB010 menggunakan role kaprodi
+            // Khusus BB010
             if (isset($totalPerMK['BB010'])) {
 
-                // Ambil total nilai per role (mitra/dospem) dari semua komponen BB010
-                $nilaiMitra  = 0;
+                $nilaiMitra = 0;
                 $nilaiDospem = 0;
 
                 foreach ($komponen as $k) {
                     if ($k['kode_mk'] === 'BB010') {
-                        if ($k['role'] === 'mitra') {
-                            $nilaiMitra += $k['nilai'];
-                        }
-                        if ($k['role'] === 'dospem') {
-                            $nilaiDospem += $k['nilai'];
-                        }
+                        if ($k['role'] === 'mitra')  $nilaiMitra  += $k['nilai'];
+                        if ($k['role'] === 'dospem') $nilaiDospem += $k['nilai'];
                     }
                 }
 
-                // Ambil bobot dari role kaprodi berdasarkan id_nilai BB010-1 & BB010-2
                 $komponenKaprodi = $this->komponenNilaiModel
                     ->where('kode_mk', 'BB010')
                     ->where('role', 'kaprodi')
                     ->findAll();
 
-                $bobotMitra  = 0;
+                $bobotMitra = 0;
                 $bobotDospem = 0;
+
                 foreach ($komponenKaprodi as $k) {
-                    if ($k['id_nilai'] === 'BB010-1') {
-                        $bobotMitra = $k['presentase'];
-                    }
-                    if ($k['id_nilai'] === 'BB010-2') {
-                        $bobotDospem = $k['presentase'];
-                    }
+                    if ($k['id_nilai'] === 'BB010-1') $bobotMitra  = $k['presentase'];
+                    if ($k['id_nilai'] === 'BB010-2') $bobotDospem = $k['presentase'];
                 }
 
-                // Hitung nilai akhir MK BB010 sesuai bobot kaprodi
-                $totalPerMK['BB010'] = ($nilaiMitra * $bobotMitra / 100) + ($nilaiDospem * $bobotDospem / 100);
+                $totalPerMK['BB010'] =
+                    ($nilaiMitra * $bobotMitra / 100) +
+                    ($nilaiDospem * $bobotDospem / 100);
             }
 
-            // Simpan nilai akhir MK
             $m['magang_final'] = $totalPerMK['BB010'] ?? null;
             $m['kombis']       = $totalPerMK['KB299'] ?? null;
             $m['asib']         = $totalPerMK['KB319'] ?? null;
             $m['dsib']         = $totalPerMK['KK166'] ?? null;
 
-            // 🔹 Hitung grade
             $m['grade_magang'] = isset($m['magang_final']) ? $this->getGrade($m['magang_final']) : '-';
             $m['grade_kombis'] = isset($m['kombis'])       ? $this->getGrade($m['kombis'])       : '-';
             $m['grade_asib']   = isset($m['asib'])         ? $this->getGrade($m['asib'])         : '-';
             $m['grade_dsib']   = isset($m['dsib'])         ? $this->getGrade($m['dsib'])         : '-';
         }
 
-        // Kirim ke view
-        $data = [
-            'mahasiswa'    => $mahasiswa,
-            'semester'     => $semester,
-            'tahun_ajaran' => $tahunAjaran,
-            'prodi'        => $prodiFilter,
-            'user_name' => $this->getUserName(),
-            // 🔥 kirim data kaprodi untuk footer Excel
+        // ============================================
+        // 🔥 6. KIRIM KE VIEW
+        // ============================================
+        return view('kaprodi/nilai_mahasiswa', [
+            'mahasiswa'       => $mahasiswa,
+            'semester'        => $semester,
+            'tahun_ajaran'    => $tahunAjaran,
+            'prodi'           => $prodiFilter,
+            'user_name'       => $this->getUserName(),
             'kaprodi_nama'    => $kaprodiNama,
             'kaprodi_jabatan' => $kaprodiJabatan
-        ];
-
-        return view('kaprodi/nilai_mahasiswa', $data);
+        ]);
     }
 
 
@@ -467,19 +471,36 @@ class Kaprodi extends BaseController
     public function detail_nilai($nim)
     {
         // Cek login & role Kaprodi
-        if (!$this->session->get('isLoggedIn') || $this->session->get('role') !== 'kaprodi') {
+        if (
+            !$this->session->get('isLoggedIn') ||
+            $this->session->get('role') !== 'kaprodi'
+        ) {
             return redirect()->to('/login')->with('error', 'Silakan login terlebih dahulu.');
         }
 
-        // Tentukan semester & tahun ajaran
-        $bulan = date('n');
-        $semester = ($bulan >= 9 || $bulan <= 2) ? 'Gasal' : 'Genap';
-        $tahunSekarang = date('Y');
-        $tahunAjaran = ($semester === 'Gasal')
-            ? $tahunSekarang . '/' . ($tahunSekarang + 1)
-            : ($tahunSekarang - 1) . '/' . $tahunSekarang;
+        /**
+         * ======================================================
+         * 🔹 Ambil data profil magang AKTIF dari database
+         *     Semester & Tahun Ajaran DIAMBIL LANGSUNG DARI DB
+         * ======================================================
+         */
+        $profil = $this->profilMagangModel
+            ->where('nim', $nim)
+            ->where('status', 'aktif')
+            ->first();
 
-        // Ambil data mahasiswa
+        if (!$profil) {
+            return redirect()->back()->with('error', 'Profil magang aktif tidak ditemukan.');
+        }
+
+        $semester     = $profil['semester'];
+        $tahunAjaran  = $profil['tahun_ajaran'];
+
+        /**
+         * ======================================================
+         * 🔹 Ambil data mahasiswa
+         * ======================================================
+         */
         $data['mahasiswa'] = $this->profilMagangModel
             ->select('
                 profil_magang.id_profil,
@@ -487,7 +508,9 @@ class Kaprodi extends BaseController
                 mahasiswa.nama_lengkap,
                 mitra.nama_mitra,
                 unit.nama_unit,
-                program_magang.nama_program
+                program_magang.nama_program,
+                profil_magang.semester,
+                profil_magang.tahun_ajaran
             ')
             ->join('mahasiswa', 'mahasiswa.nim = profil_magang.nim', 'left')
             ->join('mitra', 'mitra.id_mitra = profil_magang.id_mitra', 'left')
@@ -502,7 +525,11 @@ class Kaprodi extends BaseController
             return redirect()->back()->with('error', 'Data mahasiswa tidak ditemukan.');
         }
 
-        // Ambil komponen nilai mahasiswa
+        /**
+         * ======================================================
+         * 🔹 Ambil komponen nilai mahasiswa
+         * ======================================================
+         */
         $data['komponen'] = $this->nilaiModel
             ->select('
                 nilai_magang.id_nilai_magang,
@@ -523,12 +550,15 @@ class Kaprodi extends BaseController
             ->orderBy('nilai_magang.id_nilai_magang', 'ASC')
             ->findAll();
 
-        // Ambil nilai tersimpan berdasarkan id_profil
+        /**
+         * ======================================================
+         * 🔹 Ambil nilai tersimpan
+         * ======================================================
+         */
         $nilaiTersimpan = $this->nilaiModel
             ->where('id_profil', $data['mahasiswa']['id_profil'])
             ->findAll();
 
-        // Simpan dalam array agar mudah diakses
         $data['nilaiTersimpan'] = [];
         foreach ($nilaiTersimpan as $n) {
             $data['nilaiTersimpan'][$n['id_nilai_magang']] = [
@@ -536,76 +566,84 @@ class Kaprodi extends BaseController
             ];
         }
 
-        // Hitung total nilai per MK+Role
+        /**
+         * ======================================================
+         * 🔹 Hitung total nilai per MK + Role
+         * ======================================================
+         */
         $totalPerMKRole = [];
         foreach ($data['komponen'] as $k) {
-            $key = $k['kode_mk'].'_'.$k['role'];
-            $nilai = isset($data['nilaiTersimpan'][$k['id_nilai_magang']]) ? $data['nilaiTersimpan'][$k['id_nilai_magang']]['nilai'] : 0;
-            if (!isset($totalPerMKRole[$key])) $totalPerMKRole[$key] = 0;
+            $key = $k['kode_mk'] . '_' . $k['role'];
+            $nilai = $data['nilaiTersimpan'][$k['id_nilai_magang']]['nilai'] ?? 0;
+
+            if (!isset($totalPerMKRole[$key])) {
+                $totalPerMKRole[$key] = 0;
+            }
             $totalPerMKRole[$key] += $nilai;
         }
         $data['totalPerMKRole'] = $totalPerMKRole;
 
-        // Hitung total nilai per Mata Kuliah (gabungan semua role)
+        /**
+         * ======================================================
+         * 🔹 Hitung total nilai per Mata Kuliah
+         * ======================================================
+         */
         $totalPerMK = [];
         foreach ($data['komponen'] as $k) {
             $kodeMK = $k['kode_mk'];
-            $nilai = isset($data['nilaiTersimpan'][$k['id_nilai_magang']])
-                ? $data['nilaiTersimpan'][$k['id_nilai_magang']]['nilai']
-                : 0;
+            $nilai  = $data['nilaiTersimpan'][$k['id_nilai_magang']]['nilai'] ?? 0;
 
-            if (!isset($totalPerMK[$kodeMK])) $totalPerMK[$kodeMK] = 0;
-
+            if (!isset($totalPerMK[$kodeMK])) {
+                $totalPerMK[$kodeMK] = 0;
+            }
             $totalPerMK[$kodeMK] += $nilai;
         }
 
-        // Aturan khusus MK BB010 (magang)
+        /**
+         * ======================================================
+         * 🔹 Aturan khusus MK BB010 (Magang)
+         * ======================================================
+         */
         if (isset($totalPerMK['BB010'])) {
-            // Total nilai per role (mitra/dospem) dari semua komponen BB010
             $nilaiMitra  = 0;
             $nilaiDospem = 0;
+
             foreach ($data['komponen'] as $k) {
                 if ($k['kode_mk'] === 'BB010') {
-                    if ($k['role'] === 'mitra') {
-                        $nilaiMitra += $data['nilaiTersimpan'][$k['id_nilai_magang']]['nilai'] ?? 0;
-                    }
-                    if ($k['role'] === 'dospem') {
-                        $nilaiDospem += $data['nilaiTersimpan'][$k['id_nilai_magang']]['nilai'] ?? 0;
-                    }
+                    $nilai = $data['nilaiTersimpan'][$k['id_nilai_magang']]['nilai'] ?? 0;
+                    if ($k['role'] === 'mitra')   $nilaiMitra  += $nilai;
+                    if ($k['role'] === 'dospem')  $nilaiDospem += $nilai;
                 }
             }
 
-            // Ambil bobot dari role kaprodi berdasarkan id_nilai BB010-1 & BB010-2
-
             $komponenKaprodi = $this->komponenNilaiModel
-            ->where('kode_mk', 'BB010')
-            ->where('role', 'kaprodi')
-            ->findAll();
+                ->where('kode_mk', 'BB010')
+                ->where('role', 'kaprodi')
+                ->findAll();
 
             $bobotMitra  = 0;
             $bobotDospem = 0;
             foreach ($komponenKaprodi as $k) {
-                if ($k['id_nilai'] === 'BB010-1') {
-                    $bobotMitra = $k['presentase'];
-                }
-                if ($k['id_nilai'] === 'BB010-2') {
-                    $bobotDospem = $k['presentase'];
-                }
+                if ($k['id_nilai'] === 'BB010-1') $bobotMitra  = $k['presentase'];
+                if ($k['id_nilai'] === 'BB010-2') $bobotDospem = $k['presentase'];
             }
 
-            // Hitung nilai akhir matakuliah BB010
-            $totalPerMK['BB010'] = ($nilaiMitra * $bobotMitra / 100) + ($nilaiDospem * $bobotDospem / 100);
-
+            $totalPerMK['BB010'] =
+                ($nilaiMitra * $bobotMitra / 100) +
+                ($nilaiDospem * $bobotDospem / 100);
         }
 
         $data['totalPerMK'] = $totalPerMK;
 
-        // Hitung Grade per Mata Kuliah
-        $gradePerMK = [];
+        /**
+         * ======================================================
+         * 🔹 Hitung grade
+         * ======================================================
+         */
+        $data['gradePerMK'] = [];
         foreach ($data['totalPerMK'] as $kodeMK => $nilaiAkhir) {
-            $gradePerMK[$kodeMK] = $this->getGrade($nilaiAkhir);
+            $data['gradePerMK'][$kodeMK] = $this->getGrade($nilaiAkhir);
         }
-        $data['gradePerMK'] = $gradePerMK;
 
         $data['user_name'] = $this->getUserName();
 

@@ -44,21 +44,33 @@ class KelolaBimbingan extends BaseController
             }
         }
 
-        // Jika masih belum ada, redirect ke login
         if (!$nppy) {
             return redirect()->to('/login')->with('error', 'Silakan login terlebih dahulu.');
         }
 
-        // 🔹 Tentukan semester & tahun ajaran aktif
-        $bulan = date('n');
-        $semester = ($bulan >= 9 || $bulan <= 2) ? 'Gasal' : 'Genap';
+        // 🔹 Ambil semester & tahun ajaran AKTIF dari database
+        $profilAktif = $this->profilMagangModel
+            ->select('semester, tahun_ajaran')
+            ->where('nppy', $nppy)
+            ->where('status', 'aktif')
+            ->where('deleted_at', null)
+            ->orderBy('tanggal_mulai', 'DESC')
+            ->first();
 
-        $tahunSekarang = date('Y');
-        $tahunAjaran = ($semester === 'Gasal')
-            ? $tahunSekarang . '/' . ($tahunSekarang + 1)
-            : ($tahunSekarang - 1) . '/' . $tahunSekarang;
+        // Jika belum ada mahasiswa aktif
+        if (!$profilAktif) {
+            return view('dospem/bimbingan_magang', [
+                'title' => 'Data Bimbingan Magang',
+                'mahasiswa' => [],
+                'semester' => null,
+                'tahun_ajaran' => null
+            ]);
+        }
 
-        // 🔹 Ambil data mahasiswa bimbingan dospem sesuai semester aktif
+        $semester    = $profilAktif['semester'];
+        $tahunAjaran = $profilAktif['tahun_ajaran'];
+
+        // 🔹 Ambil mahasiswa bimbingan dospem
         $mahasiswaBimbingan = $this->profilMagangModel
             ->select('
                 profil_magang.id_profil,
@@ -71,35 +83,31 @@ class KelolaBimbingan extends BaseController
             ->join('dosen', 'dosen.nppy = profil_magang.nppy')
             ->join(
                 'tugas_akhir_magang',
-                'tugas_akhir_magang.id_profil = profil_magang.id_profil AND tugas_akhir_magang.kode_mk = "BB010"',
+                'tugas_akhir_magang.id_profil = profil_magang.id_profil 
+                AND tugas_akhir_magang.kode_mk = "BB010"',
                 'left'
             )
             ->where('profil_magang.nppy', $nppy)
-            ->where('profil_magang.deleted_at', null)
+            ->where('profil_magang.status', 'aktif')
             ->where('profil_magang.semester', $semester)
             ->where('profil_magang.tahun_ajaran', $tahunAjaran)
-            ->where('profil_magang.status', 'aktif')
+            ->where('profil_magang.deleted_at', null)
             ->findAll();
 
-        // 🔹 Hitung frekuensi bimbingan tiap mahasiswa (khusus MK Magang)
+        // 🔹 Hitung frekuensi bimbingan tiap mahasiswa
         foreach ($mahasiswaBimbingan as &$mhs) {
-            $jumlahBimbingan = $this->bimbinganModel
+            $mhs['frekuensi_bimbingan'] = $this->bimbinganModel
                 ->where('id_profil', $mhs['id_profil'])
-                ->join('mata_kuliah', 'mata_kuliah.kode_mk = bimbingan.kode_mk')
-                ->where('bimbingan.kode_mk', 'BB010')
+                ->where('kode_mk', 'BB010')
                 ->countAllResults();
-
-            $mhs['frekuensi_bimbingan'] = $jumlahBimbingan;
         }
 
-        $data = [
+        return view('dospem/bimbingan_magang', [
             'title' => 'Data Bimbingan Magang',
             'mahasiswa' => $mahasiswaBimbingan,
             'semester' => $semester,
             'tahun_ajaran' => $tahunAjaran
-        ];
-
-        return view('dospem/bimbingan_magang', $data);
+        ]);
     }
 
     public function tambah($id_profil)

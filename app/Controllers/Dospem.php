@@ -172,53 +172,64 @@ class Dospem extends BaseController
     // 🔹 Menampilkan daftar mahasiswa yang dibimbing dospem
     public function mahasiswa()
     {
-        if (!$this->session->get('isLoggedIn') || $this->session->get('role') !== 'dospem') {
+        if (
+            !$this->session->get('isLoggedIn') ||
+            $this->session->get('role') !== 'dospem'
+        ) {
             return redirect()->to('/login')->with('error', 'Silakan login terlebih dahulu.');
         }
 
-        // Ambil NPPY dospem yang login
-        $nppy = $this->session->get('username'); // asumsi username = nppy
+        // NPPY dospem login
+        $nppy = $this->session->get('username');
 
-        // Ambil bulan saat ini untuk menentukan semester
-        $bulan = date('n'); // (1-12)
-        $semester = ($bulan >= 9 || $bulan <= 2) ? 'Gasal' : 'Genap';
+        // 🔹 Ambil semester & tahun ajaran AKTIF dari database
+        $profilAktif = $this->profilMagangModel
+            ->select('semester, tahun_ajaran')
+            ->where('nppy', $nppy)
+            ->where('status', 'aktif')
+            ->orderBy('tanggal_mulai', 'DESC')
+            ->first();
 
-        // Tentukan tahun ajaran aktif
-        $tahunSekarang = date('Y');
-        $tahunAjaran = ($semester === 'Gasal')
-            ? $tahunSekarang . '/' . ($tahunSekarang + 1)
-            : ($tahunSekarang - 1) . '/' . $tahunSekarang;
+        // Kalau dospem belum punya mahasiswa aktif
+        if (!$profilAktif) {
+            $data['mahasiswa'] = [];
+            $data['semester'] = null;
+            $data['tahun_ajaran'] = null;
+        } else {
+            $semester     = $profilAktif['semester'];
+            $tahunAjaran  = $profilAktif['tahun_ajaran'];
 
-        // Ambil mahasiswa bimbingan berdasarkan nppy dospem login
-        $data['mahasiswa'] = $this->profilMagangModel
-        ->select('
-            profil_magang.id_profil,
-            mahasiswa.nim,
-            mahasiswa.nama_lengkap,
-            dosen.nama_lengkap AS nama_dosen,
-            mitra.nama_mitra,
-            unit.nama_unit,
-            program_magang.nama_program,
-            profil_magang.tanggal_mulai,
-            profil_magang.tanggal_selesai,
-            profil_magang.status,
-            profil_magang.semester,
-            profil_magang.tahun_ajaran
-        ')
-        ->join('mahasiswa', 'mahasiswa.nim = profil_magang.nim', 'left')
-        ->join('dosen', 'dosen.nppy = profil_magang.nppy', 'left')  // 🔹 Tambahkan ini
-        ->join('mitra', 'mitra.id_mitra = profil_magang.id_mitra', 'left')
-        ->join('unit', 'unit.id_unit = profil_magang.id_unit', 'left')
-        ->join('program_magang', 'program_magang.id_program = profil_magang.id_program', 'left')
-        ->where('profil_magang.nppy', $nppy)
-        ->where('profil_magang.semester', $semester)
-        ->where('profil_magang.tahun_ajaran', $tahunAjaran)
-        ->where('profil_magang.status', 'aktif')
-        ->orderBy('profil_magang.tanggal_mulai', 'DESC')
-        ->findAll();
+            $data['mahasiswa'] = $this->profilMagangModel
+                ->select('
+                    profil_magang.id_profil,
+                    mahasiswa.nim,
+                    mahasiswa.nama_lengkap,
+                    dosen.nama_lengkap AS nama_dosen,
+                    mitra.nama_mitra,
+                    unit.nama_unit,
+                    program_magang.nama_program,
+                    profil_magang.tanggal_mulai,
+                    profil_magang.tanggal_selesai,
+                    profil_magang.status,
+                    profil_magang.semester,
+                    profil_magang.tahun_ajaran
+                ')
+                ->join('mahasiswa', 'mahasiswa.nim = profil_magang.nim', 'left')
+                ->join('dosen', 'dosen.nppy = profil_magang.nppy', 'left')
+                ->join('mitra', 'mitra.id_mitra = profil_magang.id_mitra', 'left')
+                ->join('unit', 'unit.id_unit = profil_magang.id_unit', 'left')
+                ->join('program_magang', 'program_magang.id_program = profil_magang.id_program', 'left')
+                ->where('profil_magang.nppy', $nppy)
+                ->where('profil_magang.status', 'aktif')
+                ->where('profil_magang.semester', $semester)
+                ->where('profil_magang.tahun_ajaran', $tahunAjaran)
+                ->orderBy('profil_magang.tanggal_mulai', 'DESC')
+                ->findAll();
 
-        $data['semester'] = $semester;
-        $data['tahun_ajaran'] = $tahunAjaran;
+            $data['semester'] = $semester;
+            $data['tahun_ajaran'] = $tahunAjaran;
+        }
+
         $data['user_name'] = $this->getUserName();
         $data['foto'] = $this->getUserFoto();
 
@@ -288,28 +299,46 @@ class Dospem extends BaseController
     public function dataPresensi()
     {
         // Pastikan login sebagai dospem
-        if (!$this->session->get('isLoggedIn') || $this->session->get('role') !== 'dospem') {
+        if (
+            !$this->session->get('isLoggedIn') ||
+            $this->session->get('role') !== 'dospem'
+        ) {
             return redirect()->to('/login')->with('error', 'Silakan login terlebih dahulu.');
         }
-    
-        $nppy = $this->session->get('username'); // NPPY dospem yang login
+
+        $nppy = $this->session->get('username');
         $db = \Config\Database::connect();
-    
+
         $jamKerjaModel = new \App\Models\JamKerjaUnitModel();
         $profilMagangModel = new \App\Models\ProfilMagangModel();
-    
-        // Tentukan semester & tahun ajaran aktif
-        $bulan = date('n');
-        $semester = ($bulan >= 9 || $bulan <= 2) ? 'Gasal' : 'Genap';
-        $tahunSekarang = date('Y');
-        $tahunAjaran = ($semester === 'Gasal')
-            ? $tahunSekarang . '/' . ($tahunSekarang + 1)
-            : ($tahunSekarang - 1) . '/' . $tahunSekarang;
-    
-        // Query utama presensi
+
+        // 🔹 Ambil semester & tahun ajaran AKTIF dari database
+        $profilAktif = $profilMagangModel
+            ->select('semester, tahun_ajaran')
+            ->where('nppy', $nppy)
+            ->where('status', 'aktif')
+            ->orderBy('tanggal_mulai', 'DESC')
+            ->first();
+
+        // Jika belum ada mahasiswa aktif
+        if (!$profilAktif) {
+            return view('dospem/data_presensi', [
+                'rekap_presensi' => [],
+                'semester' => null,
+                'tahun_ajaran' => null,
+                'user_name' => $this->getUserName(),
+                'foto' => $this->getUserFoto()
+            ]);
+        }
+
+        $semester = $profilAktif['semester'];
+        $tahunAjaran = $profilAktif['tahun_ajaran'];
+
+        // 🔹 Query utama presensi
         $builder = $db->table('profil_magang')
             ->select('
-                mahasiswa.nim, mahasiswa.nama_lengkap,
+                mahasiswa.nim,
+                mahasiswa.nama_lengkap,
                 dosen.nama_lengkap AS nama_dosen,
                 profil_magang.id_unit,
                 profil_magang.tanggal_mulai,
@@ -328,69 +357,65 @@ class Dospem extends BaseController
             ->where('profil_magang.semester', $semester)
             ->where('profil_magang.tahun_ajaran', $tahunAjaran)
             ->groupBy('mahasiswa.nim');
-    
+
         $result = $builder->get()->getResultArray();
-    
-        // Hitung total kehadiran, total hari kerja berjalan, dan persentase
+
+        // 🔹 Hitung total kehadiran & persentase
         foreach ($result as &$r) {
             $r['total_kehadiran'] = $r['hadir'] + $r['sakit'] + $r['ijin'];
-    
+
             // Ambil hari kerja unit
             $hariKerja = $jamKerjaModel
                 ->where('id_unit', $r['id_unit'])
                 ->where('status_hari', 'Kerja')
                 ->findAll();
-    
-            $hariKerjaArr = array_column($hariKerja, 'hari'); // contoh: ['Senin','Selasa','Rabu']
-    
-            // Hitung jumlah hari kerja yang sudah dilewati (sampai hari ini)
+
+            $hariKerjaArr = array_column($hariKerja, 'hari');
+
             $tanggalMulai = new \DateTime($r['tanggal_mulai']);
             $tanggalSelesai = new \DateTime($r['tanggal_selesai']);
-            $tanggalSekarang = new \DateTime(); // tanggal hari ini
-            $interval = new \DateInterval('P1D');
-    
-            // Batas hitung: sampai hari ini atau tanggal selesai (mana yang lebih dulu)
-            $tanggalAkhirHitung = ($tanggalSekarang < $tanggalSelesai)
+            $tanggalSekarang = new \DateTime();
+
+            $tanggalAkhir = ($tanggalSekarang < $tanggalSelesai)
                 ? $tanggalSekarang
                 : $tanggalSelesai;
-    
-            $periode = new \DatePeriod($tanggalMulai, $interval, $tanggalAkhirHitung->modify('+1 day'));
-    
+
+            $periode = new \DatePeriod(
+                $tanggalMulai,
+                new \DateInterval('P1D'),
+                $tanggalAkhir->modify('+1 day')
+            );
+
+            $hariMap = [
+                'Monday' => 'Senin',
+                'Tuesday' => 'Selasa',
+                'Wednesday' => 'Rabu',
+                'Thursday' => 'Kamis',
+                'Friday' => 'Jumat',
+                'Saturday' => 'Sabtu',
+                'Sunday' => 'Minggu'
+            ];
+
             $totalHariKerja = 0;
             foreach ($periode as $tgl) {
-                $namaHari = $tgl->format('l'); // nama hari dalam bahasa Inggris
-                $hariMap = [
-                    'Monday' => 'Senin',
-                    'Tuesday' => 'Selasa',
-                    'Wednesday' => 'Rabu',
-                    'Thursday' => 'Kamis',
-                    'Friday' => 'Jumat',
-                    'Saturday' => 'Sabtu',
-                    'Sunday' => 'Minggu'
-                ];
-                if (in_array($hariMap[$namaHari], $hariKerjaArr)) {
+                if (in_array($hariMap[$tgl->format('l')], $hariKerjaArr)) {
                     $totalHariKerja++;
                 }
             }
-    
-            // Sekarang total hari kerja hanya sampai hari ini
+
             $r['total_hari_kerja'] = $totalHariKerja;
-    
-            // Hitung persentase berdasarkan hari kerja yang sudah dilewati
             $r['persentase'] = ($totalHariKerja > 0)
                 ? round(($r['total_kehadiran'] / $totalHariKerja) * 100, 1)
                 : 0;
         }
-    
-        $data = [
+
+        return view('dospem/data_presensi', [
             'rekap_presensi' => $result,
             'semester' => $semester,
             'tahun_ajaran' => $tahunAjaran,
-            'user_name' => $this->getUserName(), 
-            'foto'      => $this->getUserFoto()
-        ];
-    
-        return view('dospem/data_presensi', $data);
+            'user_name' => $this->getUserName(),
+            'foto' => $this->getUserFoto()
+        ]);
     }
     
 

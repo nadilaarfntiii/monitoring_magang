@@ -103,14 +103,8 @@ Data Presensi Mahasiswa Bimbingan
 <script src="assets/extensions/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<?php if (!empty($rekap_presensi)): ?>
 <script src="assets/static/js/pages/datatables.js"></script>
-
-<?php if (!empty($logbooks)): ?>
-<script>
-    $(document).ready(function() {
-        $('#table1').DataTable();
-    });
-</script>
 <?php endif; ?>
 
 <?= $this->endSection() ?>

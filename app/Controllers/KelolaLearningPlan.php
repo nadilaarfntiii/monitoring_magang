@@ -285,7 +285,6 @@ class KelolaLearningPlan extends BaseController
         // ===========================
         // 🔹 Tentukan Prodi Kaprodi
         // ===========================
-
         $jabatan = $this->session->get('jabatan_fungsional');
         $prodiFilter = null;
 
@@ -297,21 +296,29 @@ class KelolaLearningPlan extends BaseController
             return redirect()->to('/login')->with('error', 'Anda bukan Kaprodi.');
         }
 
-         // ===========================
-        // 🔹 Tentukan Periode Magang
         // ===========================
-        $tahunSekarang = date('Y');
-        $bulanSekarang = date('n');
+        // 🔹 Ambil semester & tahun ajaran aktif dari DB
+        // ===========================
+        $periodeAktif = $this->profilMagangModel
+            ->select('semester, tahun_ajaran')
+            ->where('status', 'aktif')
+            ->where('deleted_at', null)
+            ->orderBy('tanggal_mulai', 'DESC')
+            ->first();
 
-        // Gasal: September–Februari, Genap: Maret–Agustus
-        if ($bulanSekarang >= 9 || $bulanSekarang <= 2) {
-            $periodeMulai = $tahunSekarang . '-09-01';
-            $periodeSelesai = ($bulanSekarang <= 2 ? $tahunSekarang + 1 : $tahunSekarang + 1) . '-02-28';
-        } else {
-            $periodeMulai = $tahunSekarang . '-03-01';
-            $periodeSelesai = $tahunSekarang . '-08-31';
+        if (!$periodeAktif) {
+            return view('kaprodi/kelola_learning_plan', [
+                'learningPlans' => [],
+                'user_name'     => $this->getUserName(),
+            ]);
         }
 
+        $semester    = $periodeAktif['semester'];
+        $tahunAjaran = $periodeAktif['tahun_ajaran'];
+
+        // ===========================
+        // 🔹 Query Learning Plan
+        // ===========================
         $learningPlans = $this->learningPlanModel
             ->select('
                 learning_plan.*, 
@@ -319,15 +326,17 @@ class KelolaLearningPlan extends BaseController
                 mahasiswa.program_studi, 
                 profil_magang.nim, 
                 profil_magang.tanggal_mulai, 
-                profil_magang.tanggal_selesai
+                profil_magang.tanggal_selesai,
+                profil_magang.semester,
+                profil_magang.tahun_ajaran
             ')
             ->join('profil_magang', 'profil_magang.id_profil = learning_plan.id_profil')
             ->join('mahasiswa', 'mahasiswa.nim = profil_magang.nim')
             ->where('profil_magang.status', 'aktif')
+            ->where('profil_magang.semester', $semester)
+            ->where('profil_magang.tahun_ajaran', $tahunAjaran)
             ->where('mahasiswa.program_studi', $prodiFilter)
-            ->where("profil_magang.tanggal_mulai >=", $periodeMulai)
-            ->where("profil_magang.tanggal_selesai <=", $periodeSelesai)
-            // ✅ Tambahkan filter agar hanya tampil status selain 'Draft'
+            // ❗ hanya tampil selain Draft
             ->whereNotIn('learning_plan.status_approval_pembimbing', ['Draft'])
             ->whereNotIn('learning_plan.status_approval_kaprodi', ['Draft'])
             ->orderBy("
@@ -341,9 +350,12 @@ class KelolaLearningPlan extends BaseController
 
         return view('kaprodi/kelola_learning_plan', [
             'learningPlans' => $learningPlans,
-            'user_name' => $this->getUserName(),
+            'semester'      => $semester,
+            'tahun_ajaran'  => $tahunAjaran,
+            'user_name'     => $this->getUserName(),
         ]);
     }
+
 
     // ===============================
     // 🔹 KAPRODI DETAIL - Detail Learning Plan
@@ -511,11 +523,6 @@ class KelolaLearningPlan extends BaseController
         // 7️⃣ Tampilkan view yang sesuai
         return view($view, $data);
     }
-
-
-
-
-
     
     // ===============================
     // HELPER: Hitung Semester 
@@ -578,28 +585,50 @@ class KelolaLearningPlan extends BaseController
     public function dospemIndex()
     {
         // Pastikan login sebagai dospem
-        if (!$this->session->get('isLoggedIn') || $this->session->get('role') !== 'dospem') {
+        if (
+            !$this->session->get('isLoggedIn') ||
+            $this->session->get('role') !== 'dospem'
+        ) {
             return redirect()->to('/login')->with('error', 'Silakan login terlebih dahulu.');
         }
 
-        // Ambil NPPY dari session dospem yang login
-        $nppy = $this->session->get('username'); // username = NPPY
+        // NPPY dospem
+        $nppy = $this->session->get('username');
 
-        // Tentukan semester & tahun ajaran aktif
-        $bulan = date('n');
-        $semester = ($bulan >= 9 || $bulan <= 2) ? 'Gasal' : 'Genap';
-        $tahunSekarang = date('Y');
-        $tahunAjaran = ($semester === 'Gasal')
-            ? $tahunSekarang . '/' . ($tahunSekarang + 1)
-            : ($tahunSekarang - 1) . '/' . $tahunSekarang;
+        // 🔹 Ambil semester & tahun ajaran dari database
+        $profilAktif = $this->profilMagangModel
+            ->select('semester, tahun_ajaran')
+            ->where('nppy', $nppy)
+            ->where('status', 'aktif')
+            ->orderBy('tanggal_mulai', 'DESC')
+            ->first();
 
-        // Query Learning Plan mahasiswa bimbingan dospem (berdasarkan NPPY)
+        // Jika belum ada mahasiswa aktif
+        if (!$profilAktif) {
+            return view('dospem/data_learning_plan', [
+                'learningPlans' => [],
+                'semester' => null,
+                'tahun_ajaran' => null,
+                'user_name' => $this->getUserName(),
+                'foto' => $this->getUserFoto(),
+            ]);
+        }
+
+        $semester    = $profilAktif['semester'];
+        $tahunAjaran = $profilAktif['tahun_ajaran'];
+
+        // 🔹 Query Learning Plan mahasiswa bimbingan dospem
         $learningPlans = $this->learningPlanModel
             ->select('
                 learning_plan.*, 
-                mahasiswa.nim, mahasiswa.nama_lengkap, mahasiswa.program_studi,
-                profil_magang.tanggal_mulai, profil_magang.tanggal_selesai,
-                profil_magang.status, profil_magang.semester, profil_magang.tahun_ajaran
+                mahasiswa.nim,
+                mahasiswa.nama_lengkap,
+                mahasiswa.program_studi,
+                profil_magang.tanggal_mulai,
+                profil_magang.tanggal_selesai,
+                profil_magang.status,
+                profil_magang.semester,
+                profil_magang.tahun_ajaran
             ')
             ->join('profil_magang', 'profil_magang.id_profil = learning_plan.id_profil')
             ->join('mahasiswa', 'mahasiswa.nim = profil_magang.nim')
@@ -618,15 +647,13 @@ class KelolaLearningPlan extends BaseController
             ->orderBy('learning_plan.id_lp', 'ASC')
             ->findAll();
 
-        $data = [
+        return view('dospem/data_learning_plan', [
             'learningPlans' => $learningPlans,
             'semester' => $semester,
             'tahun_ajaran' => $tahunAjaran,
             'user_name' => $this->getUserName(),
-            'foto'      => $this->getUserFoto(), 
-        ];
-
-        return view('dospem/data_learning_plan', $data);
+            'foto' => $this->getUserFoto(),
+        ]);
     }
 
 
@@ -686,7 +713,6 @@ class KelolaLearningPlan extends BaseController
 
         return view($view, $data);
     }
-
 
 
     // ===============================

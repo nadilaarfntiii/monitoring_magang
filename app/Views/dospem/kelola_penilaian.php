@@ -122,6 +122,7 @@ Kelola Penilaian Mahasiswa Magang
 <script src="assets/extensions/jquery/jquery.min.js"></script>
 <script src="assets/extensions/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="assets/extensions/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
+<?php if (!empty($mahasiswa)): ?>
 <script src="assets/static/js/pages/datatables.js"></script>
 
 <script>
@@ -132,5 +133,8 @@ $(document).ready(function(){
     }
 });
 </script>
+<?php endif; ?>
+
+
 
 <?= $this->endSection() ?>

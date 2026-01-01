@@ -23,16 +23,31 @@ class KelolaPenilaian extends BaseController
             return redirect()->to('/login')->with('error', 'Silakan login terlebih dahulu.');
         }
 
+        // NPPY dospem dari session
         $nppy = $this->session->get('username');
-        
-        $bulan = date('n');
-        $semester = ($bulan >= 9 || $bulan <= 2) ? 'Gasal' : 'Genap';
 
-        $tahunSekarang = date('Y');
-        $tahunAjaran = ($semester === 'Gasal')
-            ? $tahunSekarang . '/' . ($tahunSekarang + 1)
-            : ($tahunSekarang - 1) . '/' . $tahunSekarang;
+        // 🔹 Ambil semester & tahun ajaran AKTIF dari database
+        $profilAktif = $this->profilMagangModel
+            ->select('semester, tahun_ajaran')
+            ->where('nppy', $nppy)
+            ->where('status', 'aktif')
+            ->where('deleted_at', null)
+            ->orderBy('tanggal_mulai', 'DESC')
+            ->first();
 
+        // Kalau belum ada mahasiswa aktif
+        if (!$profilAktif) {
+            return view('dospem/kelola_penilaian', [
+                'mahasiswa'    => [],
+                'semester'     => null,
+                'tahun_ajaran' => null
+            ]);
+        }
+
+        $semester    = $profilAktif['semester'];
+        $tahunAjaran = $profilAktif['tahun_ajaran'];
+
+        // 🔹 Ambil mahasiswa bimbingan sesuai data DB
         $data['mahasiswa'] = $this->profilMagangModel
             ->select('
                 profil_magang.id_profil,
@@ -46,17 +61,19 @@ class KelolaPenilaian extends BaseController
             ->join('mitra', 'mitra.id_mitra = profil_magang.id_mitra', 'left')
             ->join('unit', 'unit.id_unit = profil_magang.id_unit', 'left')
             ->where('profil_magang.nppy', $nppy)
+            ->where('profil_magang.status', 'aktif')
             ->where('profil_magang.semester', $semester)
             ->where('profil_magang.tahun_ajaran', $tahunAjaran)
-            ->where('profil_magang.status', 'aktif')
+            ->where('profil_magang.deleted_at', null)
             ->orderBy('profil_magang.tanggal_mulai', 'DESC')
             ->findAll();
 
-        $data['semester']   = $semester;
-        $data['tahun_ajaran'] = $tahunAjaran;
+        $data['semester']      = $semester;
+        $data['tahun_ajaran']  = $tahunAjaran;
 
         return view('dospem/kelola_penilaian', $data);
     }
+
 
     public function inputNilaiDospem($nim)
     {
@@ -222,27 +239,46 @@ class KelolaPenilaian extends BaseController
     
         return redirect()->back()->with('success', 'Nilai berhasil disimpan.');
     }
-        
-    //HALAMAN PENILAIAN DARI MITRA
+    
+    // ==================================================
+    // HALAMAN PENILAIAN DARI MITRA
+    // ==================================================
     public function indexMitra()
     {
-        if (!$this->session->get('isLoggedIn') || $this->session->get('role') !== 'mitra') {
+        if (
+            !$this->session->get('isLoggedIn') ||
+            $this->session->get('role') !== 'mitra'
+        ) {
             return redirect()->to('/login')->with('error', 'Silakan login terlebih dahulu.');
         }
 
         // Ambil id_unit dari session
         $idUnit = $this->session->get('id_unit');
 
-        // Hitung semester otomatis
-        $bulan = date('n');
-        $semester = ($bulan >= 9 || $bulan <= 2) ? 'Gasal' : 'Genap';
+        /**
+         * ==================================================
+         * 🔹 Ambil semester & tahun ajaran dari DB
+         * ==================================================
+         */
+        $profilAktif = $this->profilMagangModel
+            ->select('semester, tahun_ajaran')
+            ->where('id_unit', $idUnit)
+            ->where('status', 'aktif')
+            ->orderBy('tanggal_mulai', 'DESC')
+            ->first();
 
-        $tahunSekarang = date('Y');
-        $tahunAjaran = ($semester === 'Gasal')
-            ? $tahunSekarang . '/' . ($tahunSekarang + 1)
-            : ($tahunSekarang - 1) . '/' . $tahunSekarang;
+        if (!$profilAktif) {
+            return redirect()->back()->with('error', 'Tidak ada mahasiswa magang aktif.');
+        }
 
-        // Ambil data mahasiswa yang dibimbing mitra yang login
+        $semester     = $profilAktif['semester'];
+        $tahunAjaran  = $profilAktif['tahun_ajaran'];
+
+        /**
+         * ==================================================
+         * 🔹 Ambil data mahasiswa bimbingan mitra
+         * ==================================================
+         */
         $data['mahasiswa'] = $this->profilMagangModel
             ->select('
                 profil_magang.id_profil,
@@ -261,11 +297,12 @@ class KelolaPenilaian extends BaseController
             ->orderBy('profil_magang.tanggal_mulai', 'DESC')
             ->findAll();
 
-        $data['semester']   = $semester;
-        $data['tahun_ajaran'] = $tahunAjaran;
+        $data['semester']      = $semester;
+        $data['tahun_ajaran']  = $tahunAjaran;
 
         return view('mitra/kelola_penilaian', $data);
     }
+
 
     public function inputNilaiMitra($nim)
     {

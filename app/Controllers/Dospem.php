@@ -218,9 +218,9 @@ class Dospem extends BaseController
         ->findAll();
 
         $data['semester'] = $semester;
-        /* $data['tahun_ajaran'] = $tahunAjaran;
+        $data['tahun_ajaran'] = $tahunAjaran;
         $data['user_name'] = $this->getUserName();
-        $data['foto'] = $this->getUserFoto(); */
+        $data['foto'] = $this->getUserFoto();
 
         return view('dospem/mahasiswa', $data);
     }

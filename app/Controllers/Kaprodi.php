@@ -624,8 +624,8 @@ class Kaprodi extends BaseController
             $bobotMitra  = 0;
             $bobotDospem = 0;
             foreach ($komponenKaprodi as $k) {
-                if ($k['id_nilai'] === 'BB010-1') $bobotMitra  = $k['presentase'];
-                if ($k['id_nilai'] === 'BB010-2') $bobotDospem = $k['presentase'];
+                if ($k['id_nilai'] === 'BB010-kaprodi-1') $bobotMitra  = $k['presentase'];
+                if ($k['id_nilai'] === 'BB010-kaprodi-2') $bobotDospem = $k['presentase'];
             }
 
             $totalPerMK['BB010'] =

@@ -131,12 +131,12 @@
                             </a>
                         </li>
 
-                        <li class="sidebar-item <?= (uri_string() == 'dospem/arsip_mahasiswa') ? 'active' : '' ?>">
+                        <!-- <li class="sidebar-item <?= (uri_string() == 'dospem/arsip_mahasiswa') ? 'active' : '' ?>">
                             <a href="<?= base_url('dospem/arsip_mahasiswa') ?>" class="sidebar-link">
                                 <i class="bi bi-archive"></i>
                                 <span>Arsip Mahasiswa</span>
                             </a>
-                        </li>
+                        </li> -->
 
 
                     </ul>

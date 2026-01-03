@@ -82,8 +82,8 @@ Learning Plan
             <th>NIM</th>
             <th>Nama</th>
             <th>Program Studi</th>
-            <th>Validasi Pembimbing</th>
-            <th>Validasi Kaprodi</th>
+            <th>Pembimbing Mitra</th>
+            <th>Kaprodi</th>
             <th>Aksi</th>
           </tr>
         </thead>

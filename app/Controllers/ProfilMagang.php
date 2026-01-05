@@ -8,6 +8,9 @@ use App\Models\DosenModel;
 use App\Models\MitraModel;
 use App\Models\UnitModel;
 use App\Models\ProgramMagangModel;
+use PhpOffice\PhpSpreadsheet\Reader\Xls;
+use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+use PhpOffice\PhpSpreadsheet\Shared\Date as ExcelDate;
 
 class ProfilMagang extends BaseController
 {
@@ -368,91 +371,103 @@ class ProfilMagang extends BaseController
         ]);
     }
 
-    // Import Excel
+    /**
+     * Helper konversi tanggal Excel
+    */
+
+    private function parseExcelDate($value)
+    {
+        if ($value === null || $value === '') {
+            return null;
+        }
+
+        // Jika numeric → Excel Date (misal: 45161)
+        if (is_numeric($value)) {
+            return ExcelDate::excelToDateTimeObject($value)->format('Y-m-d');
+        }
+
+        // Jika string
+        $value = trim($value);
+        $formats = ['d/m/Y', 'd-m-Y', 'Y-m-d'];
+
+        foreach ($formats as $format) {
+            $date = \DateTime::createFromFormat($format, $value);
+            if ($date !== false) {
+                return $date->format('Y-m-d');
+            }
+        }
+
+        return null;
+    }
+
     public function importExcel()
     {
         $file = $this->request->getFile('file_excel');
 
         if (!$file || !$file->isValid()) {
-            session()->setFlashdata('error', '❌ File tidak valid.');
             return $this->response->setJSON([
                 'status' => false,
-                'message' => '❌ File tidak valid.'
+                'message' => 'File tidak valid'
             ]);
         }
 
         $ext = $file->getClientExtension();
-        if (!in_array($ext, ['xls', 'xlsx'])) {
-            session()->setFlashdata('error', '❌ Format file harus .xls atau .xlsx.');
-            return $this->response->setJSON([
-                'status' => false,
-                'message' => '❌ Format file harus .xls atau .xlsx.'
-            ]);
-        }
+        $reader = $ext === 'xls' ? new Xls() : new Xlsx();
 
         try {
-            $reader = ($ext === 'xls')
-                ? new \PhpOffice\PhpSpreadsheet\Reader\Xls()
-                : new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
-
             $spreadsheet = $reader->load($file->getTempName());
-            $sheet = $spreadsheet->getActiveSheet()->toArray();
+            $sheet = $spreadsheet->getActiveSheet();
+
+            $highestRow = $sheet->getHighestRow();
 
             $berhasil = 0;
             $gagal = 0;
 
-            foreach (array_slice($sheet, 1) as $row) {
-                if (empty($row[0])) continue;
+            for ($row = 2; $row <= $highestRow; $row++) {
 
-                $nama_mahasiswa  = trim($row[0]);
-                $nama_dospem     = trim($row[1]);
-                $nama_mitra      = trim($row[2]);
-                $program_magang  = trim($row[3]);
-                $tgl_mulai_raw   = trim($row[4]);
-                $tgl_selesai_raw = trim($row[5]);
-                $status          = trim($row[6]);
-                $keterangan      = trim($row[7]);
+                $nama_mahasiswa = trim((string) $sheet->getCell("A{$row}")->getValue());
+                if ($nama_mahasiswa === '') continue;
 
-                // Konversi tanggal
-                $tgl_mulai = null;
-                $tgl_selesai = null;
+                $nama_dospem    = trim((string) $sheet->getCell("B{$row}")->getValue());
+                $nama_mitra     = trim((string) $sheet->getCell("C{$row}")->getValue());
+                $program_magang = trim((string) $sheet->getCell("D{$row}")->getValue());
 
-                if (!empty($tgl_mulai_raw)) {
-                    $tgl_obj = \DateTime::createFromFormat('d/m/Y', $tgl_mulai_raw)
-                        ?: \DateTime::createFromFormat('d-m-Y', $tgl_mulai_raw);
-                    if ($tgl_obj) $tgl_mulai = $tgl_obj->format('Y-m-d');
+                // 🔑 AMBIL DATE LANGSUNG DARI CELL
+                $tgl_mulai_raw   = $sheet->getCell("E{$row}")->getValue();
+                $tgl_selesai_raw = $sheet->getCell("F{$row}")->getValue();
+
+                $status     = trim((string) $sheet->getCell("G{$row}")->getValue());
+                $keterangan = trim((string) $sheet->getCell("H{$row}")->getValue());
+
+                $tgl_mulai   = $this->parseExcelDate($tgl_mulai_raw);
+                $tgl_selesai = $this->parseExcelDate($tgl_selesai_raw);
+
+                if (!$tgl_mulai || !$tgl_selesai) {
+                    $gagal++;
+                    continue;
                 }
 
-                if (!empty($tgl_selesai_raw)) {
-                    $tgl_obj = \DateTime::createFromFormat('d/m/Y', $tgl_selesai_raw)
-                        ?: \DateTime::createFromFormat('d-m-Y', $tgl_selesai_raw);
-                    if ($tgl_obj) $tgl_selesai = $tgl_obj->format('Y-m-d');
-                }
-
-                // Cek relasi nama → id
                 $mahasiswa = $this->mahasiswaModel->where('nama_lengkap', $nama_mahasiswa)->first();
                 $dosen     = $this->dosenModel->where('nama_lengkap', $nama_dospem)->first();
                 $mitra     = $this->mitraModel->where('nama_mitra', $nama_mitra)->first();
                 $program   = $this->programMagangModel->where('nama_program', $program_magang)->first();
 
-                // Jika salah satu tidak ditemukan → gagal
                 if (!$mahasiswa || !$dosen || !$mitra || !$program) {
                     $gagal++;
                     continue;
                 }
 
                 $unit = $this->unitModel->where('id_mitra', $mitra['id_mitra'])->first();
-                $id_unit = $unit ? $unit['id_unit'] : null;
 
                 $data = [
                     'nim'             => $mahasiswa['nim'],
                     'nppy'            => $dosen['nppy'],
                     'id_mitra'        => $mitra['id_mitra'],
-                    'id_unit'         => $id_unit,
+                    'id_unit'         => $unit['id_unit'] ?? null,
                     'id_program'      => $program['id_program'],
                     'tanggal_mulai'   => $tgl_mulai,
                     'tanggal_selesai' => $tgl_selesai,
-                    'status'          => $status ?: 'Aktif',
+                    'status'          => $status ?: 'aktif',
                     'keterangan'      => $keterangan ?: 'Baru',
                 ];
 
@@ -465,26 +480,18 @@ class ProfilMagang extends BaseController
                 }
             }
 
-            // ✅ Simpan hasil ke flashdata
-            if ($berhasil > 0) {
-                session()->setFlashdata('success', "✅ Import selesai! Berhasil: {$berhasil}, Gagal: {$gagal}");
-            } else {
-                session()->setFlashdata('error', "❌ Import gagal semua! Berhasil: {$berhasil}, Gagal: {$gagal}");
-            }
-
-            // ✅ Kirim juga response JSON untuk SweetAlert (via AJAX)
             return $this->response->setJSON([
                 'status'  => true,
                 'message' => "Import selesai! Berhasil: {$berhasil}, Gagal: {$gagal}"
             ]);
 
         } catch (\Exception $e) {
-            session()->setFlashdata('error', '❌ Terjadi kesalahan: ' . $e->getMessage());
             return $this->response->setJSON([
-                'status'  => false,
-                'message' => '❌ Terjadi kesalahan: ' . $e->getMessage()
+                'status' => false,
+                'message' => $e->getMessage()
             ]);
         }
     }
+
 
 }

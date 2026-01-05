@@ -20,6 +20,22 @@
             object-fit: cover !important;
             border-radius: 50% !important;
         }
+
+        .card-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card-clickable {
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .card-clickable:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+        }
+
     </style>
 </head>
 
@@ -254,60 +270,67 @@
 
                             <!-- MAHASISWA BIMBINGAN -->
                             <div class="col-6 col-lg-3 col-md-6">
-                                <div class="card">
-                                    <div class="card-body px-4 py-4-5">
-                                        <div class="row">
-                                            <div class="col-4 d-flex justify-content-start">
-                                                <div class="stats-icon blue mb-2">
-                                                    <i class="iconly-boldProfile"></i>
+                                <a href="<?= base_url('dospem/data_mahasiswa') ?>" class="card-link">
+                                    <div class="card card-clickable">
+                                        <div class="card-body px-4 py-4-5">
+                                            <div class="row">
+                                                <div class="col-4 d-flex justify-content-start">
+                                                    <div class="stats-icon blue mb-2">
+                                                        <i class="iconly-boldProfile"></i>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-8">
-                                                <h6 class="text-muted font-semibold mb-1">Mahasiswa Bimbingan</h6>
-                                                <h6 class="font-extrabold mb-0"><?= $totalMahasiswa ?></h6>
+                                                <div class="col-8">
+                                                    <h6 class="text-muted font-semibold mb-1">Mahasiswa Bimbingan</h6>
+                                                    <h6 class="font-extrabold mb-0"><?= $totalMahasiswa ?></h6>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                             <!-- MAGANG AKTIF -->
                             <div class="col-6 col-lg-3 col-md-6">
-                                <div class="card">
-                                    <div class="card-body px-4 py-4-5">
-                                        <div class="row">
-                                            <div class="col-4 d-flex justify-content-start">
-                                                <div class="stats-icon purple mb-2">
-                                                    <i class="iconly-boldWork"></i>
+                                <a href="<?= base_url('dospem/data_mahasiswa') ?>" class="card-link">
+                                    <div class="card card-clickable">
+                                        <div class="card-body px-4 py-4-5">
+                                            <div class="row">
+                                                <div class="col-4 d-flex justify-content-start">
+                                                    <div class="stats-icon purple mb-2">
+                                                        <i class="iconly-boldWork"></i>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-8">
-                                                <h6 class="text-muted font-semibold mb-1">Magang Aktif</h6>
-                                                <h6 class="font-extrabold mb-0"><?= $magangAktif ?></h6>
+                                                <div class="col-8">
+                                                    <h6 class="text-muted font-semibold mb-1">Magang Aktif</h6>
+                                                    <h6 class="font-extrabold mb-0"><?= $magangAktif ?></h6>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                             <!-- MAGANG SELESAI -->
                             <div class="col-6 col-lg-3 col-md-6">
-                                <div class="card">
-                                    <div class="card-body px-4 py-4-5">
-                                        <div class="row">
-                                            <div class="col-4 d-flex justify-content-start">
-                                                <div class="stats-icon green mb-2">
-                                                    <i class="iconly-boldTick-Square"></i>
+                                <a href="<?= base_url('dospem/arsip_mahasiswa') ?>" class="card-link">
+                                    <div class="card card-clickable">
+                                        <div class="card-body px-4 py-4-5">
+                                            <div class="row">
+                                                <div class="col-4 d-flex justify-content-start">
+                                                    <div class="stats-icon green mb-2">
+                                                        <i class="iconly-boldTick-Square"></i>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-8">
-                                                <h6 class="text-muted font-semibold mb-1">Magang Selesai</h6>
-                                                <h6 class="font-extrabold mb-0"><?= $magangSelesai ?></h6>
+                                                <div class="col-8">
+                                                    <h6 class="text-muted font-semibold mb-1">Magang Selesai</h6>
+                                                    <h6 class="font-extrabold mb-0"><?= $magangSelesai ?></h6>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
+
 
                         </div>
                     </div>

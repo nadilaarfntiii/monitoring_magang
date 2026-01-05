@@ -153,9 +153,7 @@
     $current = uri_string();
 
     if (
-        $current != 'dospem/data_mahasiswa' && 
-        $current != 'dospem/kelola_penilaian' &&
-        $current != 'dospem/arsip_mahasiswa'
+        $current != 'dospem/data_mahasiswa'
     ): ?>
             
         <script src="assets/compiled/js/app.js"></script>

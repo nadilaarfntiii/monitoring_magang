@@ -36,15 +36,12 @@ class Dospem extends BaseController
         $session = session();
 
         if (!$session->get('isLoggedIn') || $session->get('role') !== 'dospem') {
-            return redirect()->to('/login')->with('error', 'Silakan login terlebih dahulu.');
+            return redirect()->to('/login');
         }
 
         $id_user = $session->get('id_user');
-
-        // Ambil user
         $user = $this->userModel->find($id_user);
 
-        // Ambil dosen berdasarkan NPPY (FK di user)
         $dosen = null;
         if (!empty($user['nppy'])) {
             $dosen = $this->dosenModel
@@ -52,30 +49,39 @@ class Dospem extends BaseController
                 ->first();
         }
 
-        // ==============================
-        // NAMA (Dosen → User → Default)
-        // ==============================
+        $nppy = $dosen['nppy'] ?? null;
+
+        // ======================
+        // HITUNG DATA DASHBOARD
+        // ======================
+        $totalMahasiswa = $nppy
+            ? $this->profilMagangModel->countMahasiswaBimbingan($nppy)
+            : 0;
+
+        $magangAktif = $nppy
+            ? $this->profilMagangModel->countMagangAktif($nppy)
+            : 0;
+
+        $magangSelesai = $nppy
+            ? $this->profilMagangModel->countMagangSelesai($nppy)
+            : 0;
+
+        // Nama & foto (punyamu sudah benar)
         $user_name = $dosen['nama_lengkap']
             ?? $user['nama_lengkap']
             ?? 'Dosen Pembimbing';
 
-        // ==============================
-        // FOTO (Dosen → User → Default)
-        // ==============================
-        $foto = 'pp.jpg';
-
-        if (!empty($dosen['foto']) && file_exists(FCPATH . 'uploads/foto/' . $dosen['foto'])) {
-            $foto = $dosen['foto'];
-        } elseif (!empty($user['foto']) && file_exists(FCPATH . 'uploads/foto/' . $user['foto'])) {
-            $foto = $user['foto'];
-        }
+        $foto = $dosen['foto'] ?? $user['foto'] ?? 'pp.jpg';
 
         return view('dospem/dashboard', [
-            'user_name' => $user_name,
-            'foto'      => $foto,
-            'role_name' => 'Dosen Pembimbing'
+            'user_name'       => $user_name,
+            'foto'            => $foto,
+            'totalMahasiswa'  => $totalMahasiswa,
+            'magangAktif'     => $magangAktif,
+            'magangSelesai'   => $magangSelesai,
         ]);
     }
+
 
     public function profil()
     {
@@ -235,6 +241,7 @@ class Dospem extends BaseController
 
         return view('dospem/mahasiswa', $data);
     }
+
 
     // 🔹 Detail mahasiswa bimbingan
     public function detail($id)
@@ -417,7 +424,6 @@ class Dospem extends BaseController
             'foto' => $this->getUserFoto()
         ]);
     }
-    
 
     public function detailPresensi($nim)
     {

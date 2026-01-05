@@ -137,12 +137,12 @@
                             </a>
                         </li>
 
-                        <!-- <li class="sidebar-item <?= (uri_string() == 'dospem/arsip_mahasiswa') ? 'active' : '' ?>">
+                        <li class="sidebar-item <?= (uri_string() == 'dospem/arsip_mahasiswa') ? 'active' : '' ?>">
                             <a href="<?= base_url('dospem/arsip_mahasiswa') ?>" class="sidebar-link">
                                 <i class="bi bi-archive"></i>
                                 <span>Arsip Mahasiswa</span>
                             </a>
-                        </li> -->
+                        </li>
 
                     </ul>
                 </div>
@@ -316,11 +316,11 @@
 
 
             <!-- Footer -->
-            <footer class="footer clearfix mb-0 text-muted" style="position: fixed; bottom: 0; width: 100%; padding: 5px 10px;">
+            <!-- <footer class="footer clearfix mb-0 text-muted" style="position: fixed; bottom: 0; width: 100%; padding: 5px 10px;">
                 <div class="float-start">
                     <p>2025 &copy; Institut Widya Pratama</p>
                 </div>
-            </footer>
+            </footer> -->
         </div>
     </div>
 

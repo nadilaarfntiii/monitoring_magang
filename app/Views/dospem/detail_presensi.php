@@ -175,6 +175,7 @@ Detail Presensi Mahasiswa
   </div>
 </div>
 
+<script src="assets/compiled/js/app.js"></script>
 <script>
 document.addEventListener('click', function (e) {
     if (e.target.classList.contains('foto-presensi')) {

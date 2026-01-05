@@ -271,6 +271,7 @@ input[type="checkbox"][disabled] {
 </div>
 
 <!-- SCRIPT -->
+<script src="assets/compiled/js/app.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const steps = document.querySelectorAll(".form-step");

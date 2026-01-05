@@ -264,7 +264,7 @@
                                             </div>
                                             <div class="col-8">
                                                 <h6 class="text-muted font-semibold mb-1">Mahasiswa Bimbingan</h6>
-                                                <h6 class="font-extrabold mb-0">15</h6>
+                                                <h6 class="font-extrabold mb-0"><?= $totalMahasiswa ?></h6>
                                             </div>
                                         </div>
                                     </div>
@@ -283,7 +283,7 @@
                                             </div>
                                             <div class="col-8">
                                                 <h6 class="text-muted font-semibold mb-1">Magang Aktif</h6>
-                                                <h6 class="font-extrabold mb-0">10</h6>
+                                                <h6 class="font-extrabold mb-0"><?= $magangAktif ?></h6>
                                             </div>
                                         </div>
                                     </div>
@@ -302,7 +302,7 @@
                                             </div>
                                             <div class="col-8">
                                                 <h6 class="text-muted font-semibold mb-1">Magang Selesai</h6>
-                                                <h6 class="font-extrabold mb-0">5</h6>
+                                                <h6 class="font-extrabold mb-0"><?= $magangSelesai ?></h6>
                                             </div>
                                         </div>
                                     </div>

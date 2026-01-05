@@ -53,77 +53,109 @@ class Kelola_mitra extends BaseController
 
     public function simpanAjax()
     {
-        if ($this->request->isAJAX()) {
-            $data = [
-                'nama_mitra'   => $this->request->getPost('nama_mitra'),
-                'bidang_usaha' => $this->request->getPost('bidang_usaha'),
-                'alamat'       => $this->request->getPost('alamat'),
-                'kota'         => $this->request->getPost('kota'),
-                'kode_pos'     => $this->request->getPost('kode_pos'),
-                'provinsi'     => $this->request->getPost('provinsi'),
-                'negara'       => $this->request->getPost('negara'),
-                'no_telp'      => $this->request->getPost('no_telp'),
-                'email'        => $this->request->getPost('email'),
-                'status_mitra' => $this->request->getPost('status_mitra'),
-            ];
-
-            $this->mitraModel->insert($data);
-
-            if ($this->mitraModel->db->affectedRows() > 0) {
-                // ✅ berhasil
-                session()->setFlashdata('success', 'Mitra berhasil ditambahkan');
-                return $this->response->setJSON(['status' => true]);
-            } else {
-                // ❌ gagal
-                return $this->response->setJSON([
-                    'status'  => false,
-                    'message' => 'Gagal menyimpan data',
-                    'errors'  => $this->mitraModel->errors() ?: $this->mitraModel->db->error()
-                ]);
-            }
+        if (!$this->request->isAJAX()) {
+            return;
         }
+
+        $namaMitra = trim($this->request->getPost('nama_mitra'));
+        $kota      = trim($this->request->getPost('kota'));
+
+        // 🔍 CEK DUPLIKAT (nama + kota)
+        $cekMitra = $this->mitraModel
+            ->where('LOWER(nama_mitra)', strtolower($namaMitra))
+            ->where('LOWER(kota)', strtolower($kota))
+            ->where('deleted_at', null) // penting kalau pakai soft delete
+            ->first();
+
+        if ($cekMitra) {
+            return $this->response->setJSON([
+                'status'  => false,
+                'message' => 'Mitra dengan nama dan kota yang sama sudah terdaftar.'
+            ]);
+        }
+
+        // ✅ DATA AMAN → LANJUT SIMPAN
+        $data = [
+            'nama_mitra'   => $namaMitra,
+            'bidang_usaha' => $this->request->getPost('bidang_usaha'),
+            'alamat'       => $this->request->getPost('alamat'),
+            'kota'         => $kota,
+            'kode_pos'     => $this->request->getPost('kode_pos'),
+            'provinsi'     => $this->request->getPost('provinsi'),
+            'negara'       => $this->request->getPost('negara'),
+            'no_telp'      => $this->request->getPost('no_telp'),
+            'email'        => $this->request->getPost('email'),
+            'status_mitra' => $this->request->getPost('status_mitra'),
+        ];
+
+        $this->mitraModel->insert($data);
+
+        if ($this->mitraModel->db->affectedRows() > 0) {
+            session()->setFlashdata('success', 'Mitra berhasil ditambahkan');
+            return $this->response->setJSON(['status' => true]);
+        }
+
+        return $this->response->setJSON([
+            'status'  => false,
+            'message' => 'Gagal menyimpan data'
+        ]);
     }
+
 
     public function updateAjax()
     {
-        if ($this->request->isAJAX()) {
-            $id = $this->request->getPost('id_mitra');
-
-            if (!$id) {
-                return $this->response->setJSON([
-                    'status'  => false,
-                    'message' => 'ID Mitra tidak ditemukan'
-                ]);
-            }
-
-            $data = [
-                'nama_mitra'   => $this->request->getPost('nama_mitra'),
-                'bidang_usaha' => $this->request->getPost('bidang_usaha'),
-                'alamat'       => $this->request->getPost('alamat'),
-                'kota'         => $this->request->getPost('kota'),
-                'kode_pos'     => $this->request->getPost('kode_pos'),
-                'provinsi'     => $this->request->getPost('provinsi'),
-                'negara'       => $this->request->getPost('negara'),
-                'no_telp'      => $this->request->getPost('no_telp'),
-                'email'        => $this->request->getPost('email'),
-                'status_mitra' => $this->request->getPost('status_mitra'),
-            ];
-
-            if ($this->mitraModel->update($id, $data)) {
-                session()->setFlashdata('success', 'Mitra berhasil diupdate');
-                return $this->response->setJSON([
-                    'status'  => true,
-                    'message' => 'Data mitra berhasil diupdate'
-                ]);
-            } else {
-                return $this->response->setJSON([
-                    'status'  => false,
-                    'message' => 'Gagal update data',
-                    'errors'  => $this->mitraModel->errors() ?: $this->mitraModel->db->error()
-                ]);
-            }
+        if (!$this->request->isAJAX()) {
+            return;
         }
+
+        $id = $this->request->getPost('id_mitra');
+
+        if (!$id) {
+            session()->setFlashdata('error', 'ID Mitra tidak ditemukan.');
+            return $this->response->setJSON(['status' => false]);
+        }
+
+        $namaMitra = trim($this->request->getPost('nama_mitra'));
+        $kota      = trim($this->request->getPost('kota'));
+
+        // 🔍 CEK DUPLIKAT (KECUALI ID SENDIRI)
+        $cekDuplikat = $this->mitraModel
+            ->where('LOWER(nama_mitra)', strtolower($namaMitra))
+            ->where('LOWER(kota)', strtolower($kota))
+            ->where('id_mitra !=', $id) // ⬅️ KUNCI UTAMA
+            ->where('deleted_at', null)
+            ->first();
+
+        if ($cekDuplikat) {
+            return $this->response->setJSON([
+                'status'  => false,
+                'message' => 'Mitra dengan nama dan kota yang sama sudah terdaftar.'
+            ]);
+        }
+
+        // ✅ DATA AMAN → UPDATE
+        $data = [
+            'nama_mitra'   => $namaMitra,
+            'bidang_usaha' => $this->request->getPost('bidang_usaha'),
+            'alamat'       => $this->request->getPost('alamat'),
+            'kota'         => $kota,
+            'kode_pos'     => $this->request->getPost('kode_pos'),
+            'provinsi'     => $this->request->getPost('provinsi'),
+            'negara'       => $this->request->getPost('negara'),
+            'no_telp'      => $this->request->getPost('no_telp'),
+            'email'        => $this->request->getPost('email'),
+            'status_mitra' => $this->request->getPost('status_mitra'),
+        ];
+
+        if ($this->mitraModel->update($id, $data)) {
+            session()->setFlashdata('success', 'Mitra berhasil diupdate.');
+            return $this->response->setJSON(['status' => true]);
+        }
+
+        session()->setFlashdata('error', 'Gagal mengupdate data mitra.');
+        return $this->response->setJSON(['status' => false]);
     }
+
 
     // Soft Delete Mitra + Unit
     public function hapusAjax()
@@ -240,52 +272,94 @@ class Kelola_mitra extends BaseController
         return view('admin/arsip_mitra', $data);
     }
 
-    // Import Excel
     public function importExcel()
     {
         $file = $this->request->getFile('file_excel');
 
-        if (!$file->isValid()) {
+        if (!$file || !$file->isValid()) {
             return $this->response->setJSON([
-                'status' => false,
-                'message' => 'File tidak valid.'
+                'status'  => false,
+                'message' => 'File Excel tidak valid'
             ]);
         }
 
-        $ext = $file->getClientExtension();
+        $ext = strtolower($file->getExtension());
         if (!in_array($ext, ['xls', 'xlsx'])) {
             return $this->response->setJSON([
-                'status' => false,
-                'message' => 'Format file harus .xls atau .xlsx.'
+                'status'  => false,
+                'message' => 'Format file harus .xls atau .xlsx'
             ]);
         }
 
         try {
-            $reader = ($ext === 'xls') ? new Xls() : new Xlsx();
-            $spreadsheet = $reader->load($file->getTempName());
-            $sheet = $spreadsheet->getActiveSheet()->toArray();
+            $reader = $ext === 'xls'
+                ? new \PhpOffice\PhpSpreadsheet\Reader\Xls()
+                : new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
 
-            // skip header (mulai dari baris kedua)
-            foreach (array_slice($sheet, 1) as $row) {
-                if (empty($row[0])) continue; // skip jika nama mitra kosong
+            $spreadsheet = $reader->load($file->getTempName());
+            $sheet = $spreadsheet->getActiveSheet()->toArray(null, true, true, false);
+
+            $inserted = 0;
+            $skipped  = 0;
+
+            for ($i = 1; $i < count($sheet); $i++) {
+
+                $row = $sheet[$i];
+
+                $namaMitra = trim($row[0] ?? '');
+                $bidang    = trim($row[1] ?? '');
+                $kota      = trim($row[2] ?? '');
+
+                if ($namaMitra === '' || $kota === '') {
+                    $skipped++;
+                    continue;
+                }
+
+                // cek duplikat
+                $cek = $this->mitraModel
+                    ->where('nama_mitra', $namaMitra)
+                    ->where('kota', $kota)
+                    ->where('deleted_at', null)
+                    ->first();
+
+                if ($cek) {
+                    $skipped++;
+                    continue;
+                }
 
                 $data = [
-                    'nama_mitra'   => $row[0],
-                    'bidang_usaha' => $row[1],
-                    'kota'         => $row[2],
+                    'nama_mitra'   => $namaMitra,
+                    'bidang_usaha' => $bidang,
+                    'alamat'       => '-',
+                    'kota'         => $kota,
+                    'kode_pos'     => '-',
+                    'provinsi'     => '-',
+                    'negara'       => 'Indonesia',
+                    'no_telp'      => '-',
+                    'email'        => '-',
+                    'status_mitra' => 'Aktif'
                 ];
 
-                $this->mitraModel->insert($data);
+                if ($this->mitraModel->insert($data) !== false) {
+                    $inserted++;
+                } else {
+                    $skipped++;
+                }
             }
 
-            session()->setFlashdata('success', 'Data mitra berhasil diimport dari Excel');
-            return $this->response->setJSON(['status' => true]);
-
-        } catch (\Exception $e) {
             return $this->response->setJSON([
-                'status' => false,
-                'message' => 'Terjadi kesalahan saat membaca file: ' . $e->getMessage()
+                'status'  => true,
+                'message' => "Import selesai. Berhasil: {$inserted}, Terlewat: {$skipped}"
+            ]);
+
+        } catch (\Throwable $e) {
+            return $this->response->setJSON([
+                'status'  => false,
+                'message' => $e->getMessage()
             ]);
         }
     }
+
+
+
 }
